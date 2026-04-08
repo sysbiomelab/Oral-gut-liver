@@ -15,11 +15,3 @@ Code for the study:
 
 - R  
 - MATLAB (COBRA Toolbox, MIGRENE toolbox)
-
-## Notes
-
-Input data and GEM models are not included.
-
-## Citation
-
-Paper in progress
