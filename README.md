@@ -25,14 +25,14 @@ The study integrates multi-scale analyses, including:
 ```bash
 Oral-gut-liver/
 ├── Figure_1/
-│   ├── Figure_1.Rmd              # For Figure 1 visualisations
+│   ├── Figure_1.Rmd            R markdown for For Figure 1 visualisations
 │   ├── dmngut.RData             # Gut DMN model
 │   ├── dmnoral.RData            # Oral DMN model
 │   ├── GEM_modelling.m          # Single-species GEM simulations
 │   └── Tables/                  # Data for Figure 1
 │
 ├── Figure_2/
-│   ├── Figure_2.Rmd             # For Figure 2 visualisations
+│   ├── Figure_2.Rmd           R markdown fo# For Figure 2 visualisations
 │
 │   ├── GSMM/
 │   │   ├── Bacterial_community_generate.m   # Community model construction
