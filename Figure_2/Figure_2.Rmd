@@ -1,0 +1,207 @@
+---
+title: "Figure 2. Community and host GSMM linking oral-gut microbial translocation to systemic metabolism."
+author: "Yi Jin"
+date: "2026-04-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 5,
+  fig.height = 5
+)
+```
+
+## Load packages
+
+```{r}
+library(pheatmap)
+library(ComplexHeatmap)
+library(circlize)
+library(grid)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(readr)
+```
+
+------------------------------------------------------------------------
+
+## Figure 2B. Predicted flux production of average community models.
+
+```{r }
+df_1 <- read.csv("Tables/Average_community_Flux.csv", check.names = FALSE)
+
+ggplot(df_1 , aes(x = rxns, y = Log_Flux_Value, color = Model, group = Model)) +
+  geom_line(aes(linetype = Model)) +   
+  geom_point(size = 3) + 
+  scale_color_manual(values = c("log_Average_High" = "#00008B", "log_Average_Low" = "#809FFF")) +  
+  labs(
+    title = "Predicted Community Production (average model)",
+    x = "Metabolites",
+    y = "Predicted Log10(Flux)"
+  ) +
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+## Figure 2C. Predicted NH3 of community models after adding tMSPs.
+
+```{r }
+df_2 <- read.csv("Tables/Community_NH3_add_test.csv", check.names = FALSE)
+
+base_model_values <- df_2  %>% 
+  group_by(Community) %>% 
+  summarize(base_model_value = FeEx_NH3[rxns %in% c("Average_Low", "Average_High")])
+
+ggplot(df_2, aes(x = species_added, y = FeEx_NH3, fill = Community)) + 
+  geom_bar(stat = "identity", position = "dodge") + 
+  geom_text(aes(label = round(FeEx_NH3, 2)), vjust = -0.5, size = 2) + 
+  geom_hline(data = base_model_values, aes(yintercept = base_model_value), linetype = "dashed", color = "red", size = 0.5) +
+  theme_minimal() + 
+  labs(title = "Predicted NH3 in communities", 
+       x = "Species Added to the Model", 
+       y = "NH3 Production (FeEx_NH3)") + 
+  coord_flip() + 
+  scale_fill_manual(values = c("#00008B", "#809FFF")) +  # Customize the fill colors
+  facet_wrap(~Community, scales = "free_x") +  
+  ylim(0, 35) 
+```
+
+## Figure 2D. Correlation analysis between speceis abundance and metabolomics.
+
+```{r }
+library(readr)
+library(tibble)
+library(ComplexHeatmap)
+library(circlize)
+library(grid)
+
+rho_sig <- read.csv("Tables/heatmap_rho_matrix_FDR005_corrected.csv", check.names = FALSE) %>%
+  tibble::column_to_rownames("metabolite") %>%
+  as.matrix()
+
+p_sig <- read.csv("Tables/heatmap_p_matrix_FDR005_corrected.csv", check.names = FALSE) %>%
+  tibble::column_to_rownames("metabolite") %>%
+  as.matrix()
+
+fdr_sig <- read.csv("Tables/heatmap_FDR_matrix_FDR005_corrected.csv", check.names = FALSE) %>%
+  tibble::column_to_rownames("metabolite") %>%
+  as.matrix()
+
+signif_mat <- read.csv("Tables/heatmap_signif_matrix_FDR005_corrected.csv", check.names = FALSE) %>%
+  tibble::column_to_rownames("metabolite") %>%
+  as.matrix()
+
+prevalence_df <- read.csv("Tables/heatmap_prevalence_vector_FDR005_corrected.csv", check.names = FALSE)
+prev_vec <- prevalence_df$prevalence
+names(prev_vec) <- prevalence_df$species
+prev_vec <- prev_vec[colnames(rho_sig)]
+prev_vec[is.na(prev_vec)] <- 0
+
+min_val <- min(rho_sig, na.rm = TRUE)
+max_val <- max(rho_sig, na.rm = TRUE)
+
+col_fun <- colorRamp2(
+  c(min_val, 0, max_val),
+  c("blue", "white", "red")
+)
+
+ha_col <- HeatmapAnnotation(
+  "Prevalence in ACLD" = anno_barplot(
+    prev_vec,
+    border = FALSE,
+    gp = gpar(fill = "grey40"),
+    height = unit(2, "cm")
+  ),
+  annotation_name_gp = gpar(fontsize = 12)
+)
+
+ht <- Heatmap(
+  rho_sig,
+  name = "rho",
+  col = col_fun,
+  cluster_rows = TRUE,
+  cluster_columns = TRUE,
+  top_annotation = ha_col,
+  row_names_gp = gpar(fontsize = 10),
+  column_names_gp = gpar(fontsize = 10),
+  cell_fun = function(j, i, x, y, w, h, fill) {
+    grid.text(signif_mat[i, j], x, y, gp = gpar(fontsize = 7))
+  },
+  width = unit(ncol(rho_sig) * 5, "mm"),
+  height = unit(nrow(rho_sig) * 5, "mm")
+)
+
+draw(ht)
+```
+
+## Figure 2F. Cirrhosis liver vs healthy liver GSMM
+
+```{r }
+merged_cn <- read.csv("Tables/liver_GSMM_results.csv", check.names = FALSE)
+lab_df <- merged_cn %>% filter(label_flag)
+thr <- 3.5  
+set.seed(1)
+
+p <- ggplot(merged_cn, aes(x = log2FC_5, y = log2FC_0)) +
+  geom_point(aes(color = label_flag),
+             size = 2.5, alpha = 0.9,
+             position = position_jitter(width = 0.05, height = 0.05)) +
+  ggrepel::geom_text_repel(
+    data = lab_df,
+    aes(label = metabolite),
+    size = 3.5, max.overlaps = Inf, box.padding = 0.3, point.padding = 0.2,
+    color = "black"
+  ) +
+  geom_abline(slope = 1, intercept = 0, linetype = 2) +  # y = x 参考线
+  geom_hline(yintercept = 0, linetype = 3) +
+  geom_vline(xintercept = 0, linetype = 3) +
+  coord_equal() +
+  scale_color_manual(values = c(`FALSE` = "grey75", `TRUE` = "tomato"), guide = "none") +
+  labs(
+    x = "log2FC at ammonia = 5  (cirrhosis vs normal)",
+    y = "log2FC at ammonia = 0  (cirrhosis vs normal)",
+    subtitle = paste0("Labeled if |log2FC| ≥ ", thr)
+  ) +
+  theme_minimal(base_size = 12)
+
+print(p)
+```
+
+## Figure 2G. Brain and muscle GSMM
+
+```{r }
+merged2 <- read.csv("Tables/brain_muscle_GSMM_results.csv", check.names = FALSE)
+lab_df2 <- merged2 %>% filter(label_flag)
+thr <- 1 
+set.seed(1)
+
+ggplot(merged2, aes(x = log2FC_brain, y = log2FC_muscle)) +
+  geom_point(
+    aes(color = label_flag),
+    size = 3, alpha = 0.9,
+    position = position_jitter(width = 0.05, height = 0.05)
+  ) +
+  ggrepel::geom_text_repel(
+    data = lab_df2,
+    aes(label = metabolite),
+    size = 4,
+    max.overlaps = Inf,
+    box.padding = 0.3,
+    point.padding = 0.2,
+    color = "black"
+  ) +
+  geom_abline(slope = 1, intercept = 0, linetype = 2) +
+  geom_hline(yintercept = 0, linetype = 3) +
+  geom_vline(xintercept = 0, linetype = 3) +
+  coord_equal() +
+  scale_color_manual(values = c(`FALSE` = "grey75", `TRUE` = "tomato"), guide = "none") +
+  labs(x = "Brain log2FC (100 vs 0)", y = "Muscle log2FC (100 vs 0)",
+       subtitle = paste0("Labeled if |log2FC| ≥ ", thr))+
+  theme_minimal(base_size = 12)
+```

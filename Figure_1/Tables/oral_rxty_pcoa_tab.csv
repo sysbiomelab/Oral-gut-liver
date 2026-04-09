@@ -1,0 +1,110 @@
+SampleID,Age,Gender,BMI,Group,MELD,Severity_group,color,reactotype
+OralSample1,56,F,23.18,LC,14,Low Severity,cyan,2
+OralSample2,47,M,22.13,LC,30,High Severity,purple,2
+OralSample3,63,M,24.62,LC,8,Mild Severity,skyblue,2
+OralSample4,58,M,32.64,LC,8,Mild Severity,skyblue,1
+OralSample5,45,M,25.06,LC,30,High Severity,purple,2
+OralSample6,33,F,NA,H,NA,Healthy,grey,1
+OralSample7,25,M,NA,H,NA,Healthy,grey,1
+OralSample8,70,M,26.64,LC,8,Mild Severity,skyblue,1
+OralSample9,67,M,24.29,LC,8,Mild Severity,skyblue,1
+OralSample10,53,M,21.55,LC,8,Mild Severity,skyblue,1
+OralSample11,52,M,24.22,LC,11,Low Severity,cyan,1
+OralSample12,58,M,22.53,LC,11,Low Severity,cyan,1
+OralSample13,71,F,24.22,LC,14,Low Severity,cyan,1
+OralSample14,27,F,NA,H,NA,Healthy,grey,1
+OralSample15,27,F,19.83,H,NA,Healthy,grey,1
+OralSample16,55,F,28.2,H,NA,Healthy,grey,1
+OralSample17,36,M,24.68,H,NA,Healthy,grey,1
+OralSample18,36,M,25.25,H,NA,Healthy,grey,1
+OralSample19,28,F,NA,H,NA,Healthy,grey,1
+OralSample20,51,M,34.31,LC,24,Moderate Severity,blue,1
+OralSample21,52,M,24.67,LC,19,Moderate Severity,blue,1
+OralSample22,63,M,28.09,LC,10,Mild Severity,skyblue,2
+OralSample23,47,M,26.67,LC,8,Mild Severity,skyblue,1
+OralSample24,73,M,22.98,LC,19,Moderate Severity,blue,1
+OralSample25,64,M,25.88,LC,17,Low Severity,cyan,1
+OralSample26,68,M,30.76,LC,12,Low Severity,cyan,2
+OralSample27,60,F,26.45,LC,28,Moderate Severity,blue,2
+OralSample28,66,F,18.59,LC,9,Mild Severity,skyblue,1
+OralSample29,59,M,33.22,LC,3,Mild Severity,skyblue,1
+OralSample30,62,M,32.69,LC,10,Low Severity,cyan,1
+OralSample31,44,M,23.1,LC,9,Mild Severity,skyblue,1
+OralSample32,56,M,24.57,LC,14,Low Severity,cyan,1
+OralSample33,70,M,36.57,LC,15,Low Severity,cyan,1
+OralSample34,64,M,27.43,LC,13,Low Severity,cyan,1
+OralSample35,56,M,29.38,LC,13,Low Severity,cyan,1
+OralSample36,64,F,31.22,LC,14,Low Severity,cyan,1
+OralSample37,70,M,31.71,LC,9,Mild Severity,skyblue,1
+OralSample38,48,F,21.45,LC,4,Mild Severity,skyblue,1
+OralSample39,63,M,23.18,LC,20,Moderate Severity,blue,2
+OralSample40,61,M,33.24,LC,12,Low Severity,cyan,1
+OralSample41,39,F,32.66,LC,20,Moderate Severity,blue,2
+OralSample42,51,M,25.76,LC,16,Low Severity,cyan,2
+OralSample43,53,F,22.48,LC,18,Moderate Severity,blue,2
+OralSample44,71,M,28.04,LC,12,Low Severity,cyan,1
+OralSample45,61,F,20.07,LC,12,Low Severity,cyan,2
+OralSample46,52,M,28.83,LC,6,Mild Severity,skyblue,1
+OralSample47,58,M,27.47,LC,17,Low Severity,cyan,1
+OralSample48,47,M,20.94,LC,7,Mild Severity,skyblue,1
+OralSample49,46,M,31.44,LC,8,Mild Severity,skyblue,1
+OralSample50,60,F,30.49,LC,14,Low Severity,cyan,1
+OralSample51,53,M,24.78,LC,11,Low Severity,cyan,2
+OralSample52,53,M,51.66,LC,24,Moderate Severity,blue,1
+OralSample53,51,M,26.04,LC,6,Mild Severity,skyblue,1
+OralSample54,52,F,29.37,LC,13,Low Severity,cyan,1
+OralSample55,43,M,25.44,LC,19,Moderate Severity,blue,1
+OralSample56,62,M,31.53,LC,11,Low Severity,cyan,1
+OralSample57,58,M,29.65,LC,20,Moderate Severity,blue,2
+OralSample58,48,F,26.04,LC,10,Mild Severity,skyblue,1
+OralSample59,52,M,37.77,LC,8,Mild Severity,skyblue,2
+OralSample60,62,M,30.3,LC,6,Mild Severity,skyblue,1
+OralSample61,49,M,26.84,LC,9,Mild Severity,skyblue,1
+OralSample62,71,M,26.53,H,NA,Healthy,grey,1
+OralSample63,71,M,25.6,H,NA,Healthy,grey,1
+OralSample64,50,F,58.83,H,NA,Healthy,grey,1
+OralSample65,50,F,21.51,H,NA,Healthy,grey,1
+OralSample66,57,F,29.45,H,NA,Healthy,grey,1
+OralSample67,57,F,28.95,H,NA,Healthy,grey,1
+OralSample68,71,M,24.45,H,NA,Healthy,grey,1
+OralSample69,71,M,25.33,H,NA,Healthy,grey,1
+OralSample70,80,F,29.07,H,NA,Healthy,grey,1
+OralSample71,80,F,23.67,H,NA,Healthy,grey,1
+OralSample72,58,F,34.52,H,NA,Healthy,grey,1
+OralSample73,58,F,26.46,H,NA,Healthy,grey,1
+OralSample74,63,F,30.66,H,NA,Healthy,grey,1
+OralSample75,63,F,27.97,H,NA,Healthy,grey,1
+OralSample76,66,F,26.81,H,NA,Healthy,grey,1
+OralSample77,66,F,21.5,H,NA,Healthy,grey,1
+OralSample78,77,M,25.72,H,NA,Healthy,grey,1
+OralSample79,77,M,22.77,H,NA,Healthy,grey,1
+OralSample80,51,F,27.25,H,NA,Healthy,grey,1
+OralSample81,51,F,28.86,H,NA,Healthy,grey,1
+OralSample82,67,F,25.26,H,NA,Healthy,grey,1
+OralSample83,67,F,22.55,H,NA,Healthy,grey,1
+OralSample84,65,F,22.73,H,NA,Healthy,grey,1
+OralSample85,65,F,21.77,H,NA,Healthy,grey,1
+OralSample86,62,F,21.54,H,NA,Healthy,grey,1
+OralSample87,62,F,21.24,H,NA,Healthy,grey,1
+OralSample88,68,M,30.71,H,NA,Healthy,grey,1
+OralSample89,68,M,27.11,H,NA,Healthy,grey,1
+OralSample90,71,M,29.36,H,NA,Healthy,grey,1
+OralSample91,71,M,24.54,H,NA,Healthy,grey,1
+OralSample92,54,F,31.7,H,NA,Healthy,grey,1
+OralSample93,54,F,33.66,H,NA,Healthy,grey,1
+OralSample94,65,F,24,H,NA,Healthy,grey,1
+OralSample95,65,F,20.27,H,NA,Healthy,grey,1
+OralSample96,75,F,25.51,H,NA,Healthy,grey,1
+OralSample97,75,F,23.1,H,NA,Healthy,grey,1
+OralSample98,51,F,27.41,H,NA,Healthy,grey,1
+OralSample99,51,F,25.92,H,NA,Healthy,grey,1
+OralSample100,67,F,20.36,H,NA,Healthy,grey,1
+OralSample101,67,F,24.25,H,NA,Healthy,grey,1
+OralSample102,52,F,24.9,H,NA,Healthy,grey,1
+OralSample103,52,F,24.74,H,NA,Healthy,grey,1
+OralSample104,57,M,28.25,H,NA,Healthy,grey,1
+OralSample105,57,M,30.86,H,NA,Healthy,grey,1
+OralSample106,79,F,33.02,H,NA,Healthy,grey,1
+OralSample107,79,F,41.05,H,NA,Healthy,grey,1
+OralSample108,64,F,24.78,H,NA,Healthy,grey,1
+OralSample109,64,F,24.76,H,NA,Healthy,grey,1

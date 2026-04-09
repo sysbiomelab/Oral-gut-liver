@@ -1,0 +1,663 @@
+---
+title: "Figure 1.Reactotype-associated metabolic convergence between oral and gut microbiomes in liver cirrhosis."
+author: "Yi Jin"
+date: "2026-04-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 5,
+  fig.height = 5
+)
+```
+
+## Load packages
+
+```{r}
+library(microbiome)
+library(DirichletMultinomial)
+library(reshape2)
+library(magrittr)
+library(dplyr)
+library(parallel)
+library(tidyverse)
+library(palmerpenguins)
+library(ggdist)
+library(ggrepel)
+library(ggfun)
+library(ggtext)
+library(readxl)
+library(ggpubr)
+library(ggpmisc)
+library(knitr)
+```
+
+## Data preparation
+
+```{r}
+load("dmngut.RData")
+load("dmnoral.RData") 
+
+gut.rxty.pcoa.tab <- read.csv("Tables/gut_rxty_pcoa_tab.csv", check.names = FALSE)
+oral.rxty.pcoa.tab <- read.csv("Tables/oral_rxty_pcoa_tab.csv", check.names = FALSE)
+paired_distances_df.m <- read.csv("Tables/paired_distances_df.csv", check.names = FALSE)
+
+reactotype_colors <- c("#B0E0E6", "#5F9EA0", "#1F78B4") 
+severity_color <- c(
+  "Healthy" = "gray",
+  "Mild Severity" = "cyan",
+  "Low Severity" = "skyblue",
+  "Moderate Severity" = "blue",
+  "High Severity" = "purple"
+)
+
+oral.rxty.pcoa.tab$reactotype <- factor(oral.rxty.pcoa.tab$reactotype)
+gut.rxty.pcoa.tab$reactotype <- factor(gut.rxty.pcoa.tab$reactotype)
+
+paired_distances_df.m$Severity_group <- factor(
+  paired_distances_df.m$Severity_group,
+  levels = c("Healthy", "Mild Severity", "Low Severity", "Moderate Severity", "High Severity")
+)
+
+H <- read_excel("Tables/Commensal_MSP_FBA_results.xlsx", sheet = "cleaned_Ex")
+low <- read_excel("Tables/tMSP_FBA_results.xlsx", sheet = "cleaned_Ex")
+
+colnames(H)[1] <- "Flux"
+colnames(low)[1] <- "Flux"
+
+low[] <- lapply(low, function(x) if (is.factor(x)) as.numeric(as.character(x)) else x)
+H[] <- lapply(H, function(x) if (is.factor(x)) as.numeric(as.character(x)) else x)
+```
+
+------------------------------------------------------------------------
+
+## Fig S1. Reactotype model fitting results.
+
+```{r }
+plot(lplc_gutall, type="b", xlab="Number of Dirichlet Components",ylab="Model Fit") 
+plot(lplc_oralall, type="b", xlab="Number of Dirichlet Components",ylab="Model Fit") 
+```
+
+## Figure 1A. Relative proportions of gut reactotypes.
+
+```{r }
+ggplot(gut.rxty.pcoa.tab, aes(x = reactotype, fill = as.factor(Severity_group))) +
+  geom_bar(position = "fill") +
+  labs(x = "Severity Group", y = "Count", fill = "Reactotype") +
+  ggtitle("Relative Proportions Gut Reactotype") +
+  scale_fill_manual(values = c("gray", "cyan", "skyblue", "blue", "purple")) +
+  theme_minimal()
+```
+
+## Figure 1B. Relative proportions of oral reactotypes.
+
+```{r }
+ggplot(oral.rxty.pcoa.tab, aes(x = reactotype, fill = as.factor(Severity_group))) +
+  geom_bar(position = "fill") +
+  labs(x = "Severity Group", y = "Count", fill = "Reactotype") +
+  ggtitle("Relative Proportions Oral Reactotype") +
+  scale_fill_manual(values = c("gray", "cyan", "skyblue", "blue", "purple")) +  
+  theme_minimal()
+```
+
+## Figure 1C. MELD between gut reactotypes.
+
+```{r }
+ggplot(gut.rxty.pcoa.tab[-which(gut.rxty.pcoa.tab$Severity_group=="Healthy"),], aes(x = reactotype, y = MELD, fill = reactotype)) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  stat_compare_means(comparisons = list(c("1", "2"), c("1", "3"), c("2", "3")), label = "p.format") + 
+  labs(x = "Gut Reactotype", y = "MELD") +
+  scale_fill_manual(values = reactotype_colors) +
+  ggtitle("MELD by Reactotype of LC") +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = reactotype), label.y = 53)
+```
+
+## Figure 1D. MELD between oral reactotypes.
+
+```{r }
+ggplot(oral.rxty.pcoa.tab[-which(oral.rxty.pcoa.tab$Severity_group=="Healthy"),], aes(x = factor(reactotype), y = MELD, fill = factor(reactotype))) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  stat_compare_means(comparisons = list(c("1", "")), label = "p.format") + 
+  labs(x = "Oral Reactotype", y = "MELD") +
+  scale_fill_manual(values = reactotype_colors[1:2]) +
+  ggtitle("MELD by Reactotype of LC") +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = reactotype), label.y = 34)
+```
+
+## Figure S2C. BMI between gut reactotypes.
+
+```{r }
+ggplot(gut.rxty.pcoa.tab[,], aes(x = reactotype, y = BMI, fill = reactotype)) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  labs(x = "Gut Reactotype", y = "BMI") +
+  scale_fill_manual(values = reactotype_colors) +
+  ggtitle("BMI by Reactotype of LC") +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = reactotype))
+```
+
+## Figure S2D. Age between gut reactotypes.
+
+```{r }
+ggplot(gut.rxty.pcoa.tab[,], aes(x = reactotype, y = Age, fill = reactotype)) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_compare_means(comparisons = list( c("1", "3")), label = "p.format", hide.ns = TRUE) + #p.signif
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  labs(x = "Gut Reactotype", y = "Age") +
+  scale_fill_manual(values = reactotype_colors) +
+  ggtitle("Age by Reactotype of LC") +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = reactotype), label.y = 90)
+
+```
+
+## Figure S2E. BMI between oral reactotypes.
+
+```{r }
+ggplot(oral.rxty.pcoa.tab[-which(oral.rxty.pcoa.tab$Severity_group=="Healthy"),], aes(x = factor(reactotype), y = BMI, fill = factor(reactotype))) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  # stat_compare_means(comparisons = list(c("1", "2")), label = "p.signif") +
+  labs(x = "Oral Reactotype", y = "BMI") +
+  scale_fill_manual(values = reactotype_colors[1:2]) +
+  ggtitle("BMI by Reactotype of LC") +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = reactotype), label.y = 55)
+```
+
+## Figure S2F. Age between oral reactotypes.
+
+```{r }
+ggplot(oral.rxty.pcoa.tab[-which(oral.rxty.pcoa.tab$Severity_group=="Healthy"),], aes(x = factor(reactotype), y = Age, fill = factor(reactotype))) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  # stat_compare_means(comparisons = list(c("1", "2")), label = "p.signif") +
+  labs(x = "Oral Reactotype", y = "Age") +
+  scale_fill_manual(values = reactotype_colors[1:2]) +
+  ggtitle("Age by Reactotype of LC") +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = reactotype), label.y = 76)
+```
+
+## Figure 1E. Oral-gut metabolic distance (OGMD) by severity groups.
+
+```{r }
+ggplot(paired_distances_df.m, aes(x = Severity_group, y = Paired_Distance, fill = Severity_group)) +
+  stat_slab(aes(thickness = stat(pdf*n)),
+            scale = 0.7) +
+  stat_dotsinterval(side = "bottom", 
+                    scale = 0.7, 
+                    slab_size = NA)+
+  labs(x = "Severity", y = "Oral-gut Rxbiome Bray distance", fill = "Severity group")+
+  ggtitle("Boxplot of oral-gut distance by severity")+
+  scale_fill_manual(values = severity_color, labels = c("Healthy","Mild Severity (3-8)", "Low Severity (9-14)", "Moderate Severity (15-24)", "High Severity (≥25)")) +
+  theme_minimal()+
+  stat_summary(fun.y = mean, geom = "point", shape = 23, size=4)+
+  stat_compare_means(aes(group = Severity_group), label.y = 0.95)+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  stat_compare_means(comparisons = list(
+    # c("Healthy","Mild Severity"),
+    # c("Healthy", "Low Severity"),
+    # c("Healthy", "Moderate Severity"),
+    c("Moderate Severity", "High Severity"),
+    c("Healthy", "High Severity")
+  ), label = "p.format") 
+```
+
+## Figure 1F. OGMD and MELD (cirrhosis severity) associations.
+
+```{r }
+ggplot(paired_distances_df.m[-which(is.na(paired_distances_df.m$MELD)),], 
+             aes(x = MELD, y = Paired_Distance)) +  
+  geom_point(aes(color = distance_group), size = 4) +  
+  geom_smooth(method = "lm", se = TRUE, color = "black") +  
+  labs(x = "MELD", y = "Oral-gut Reactobiome Distance") +  
+  # ggtitle("Linear Regression between MELD and OGD") +  # Add title
+  scale_color_manual(values = c("high_distance" = "#809FFF", "low_distance" = "#00008B")) +  # Specify colors
+  stat_poly_eq(aes(label = paste(..rr.label.., ..p.value.label.., sep = "~~~")), 
+               label.x = 0.1, label.y = 0.1,  # Adjust these values for the p-value label position based on data coordinates
+               formula = y ~ x, parse = TRUE, size = 6) +  # Increase font size for the equation label
+  theme(
+    plot.title = element_text(size = 15),  # Increase title font size
+    axis.title.x = element_text(size = 15),  # Increase x-axis label font size
+    axis.title.y = element_text(size = 15),  # Increase y-axis label font size
+    axis.text = element_text(size = 15),  # Increase axis text size
+    legend.text = element_text(size = 13),  # Increase legend text size
+    # legend.title = element_text(size = 13),  # Increase legend title font size
+    legend.title = element_blank(),  # Remove legend title
+    legend.position = "top",  # Move legend to the top
+    # legend.position = c(0.4, 0.2),  # Set legend position inside the plot (x = 0.8, y = 0.8)
+    legend.direction = "horizontal",  # Arrange legend horizontally
+    panel.background = element_rect(fill = "white", color = NA),  # Set panel background to white
+    plot.background = element_rect(fill = "white", color = NA),  # Set overall plot background to white
+    panel.grid.major = element_blank(),  # Remove major grid lines
+    panel.grid.minor = element_blank()   # Remove minor grid lines
+  )
+
+```
+
+## Figure 1I. Wilcoxon test for predicted metabolic producion.
+
+## Statistical results & Volcano plot
+
+```{r }
+merged_data <- merge(low, H, by = "Flux", all = TRUE)
+merged_data[is.na(merged_data)] <- 0
+wilcoxon_test_results <- apply(merged_data[, -1], 1, function(row) {
+  low_values <- as.numeric(row[1:(ncol(low) - 1)])
+  H_values <- as.numeric(row[(ncol(low)):(ncol(merged_data) - 1)])
+  
+  wilcoxon_test <- wilcox.test(low_values, H_values)
+  
+  low_mean <- mean(low_values)
+  H_mean <- mean(H_values)
+  
+  log2fc_low_H <- log2((low_mean + 0.000001) / (H_mean + 0.000001))
+  
+  return(c(low_mean, H_mean, log2fc_low_H, wilcoxon_test$p.value))
+})
+
+# data frame
+wilcoxon_test_results_df <- data.frame(
+  Metabolite = merged_data$Flux,
+  Low_Mean = wilcoxon_test_results[1, ],
+  H_Mean = wilcoxon_test_results[2, ],
+  log2FC_Low_H = wilcoxon_test_results[3, ],
+  p_value = wilcoxon_test_results[4, ]
+)
+
+# show stats results
+print(wilcoxon_test_results_df)
+
+
+library(readxl)
+FBA_16MSP_stat_for_volcano <- read_excel("Tables/FBA_16MSP_stat_for_volcano.xlsx")
+
+data = FBA_16MSP_stat_for_volcano
+data$log10_p = -log(data$p_value,10)
+
+# volcano
+ggplot(data = data) +
+  geom_point(aes(x = log2FoldChange, y = -log10(p_value),
+                 color = log2FoldChange,
+                 size = -log10(p_value))) +
+  geom_point(data = data %>%
+               tidyr::drop_na() %>%
+               dplyr::filter(change != "Normal") %>%
+               dplyr::arrange(desc(-log10(p_value))) %>%
+               dplyr::slice(1:20),
+             aes(x = log2FoldChange, y = -log10(p_value),
+                 size = -log10(p_value)),
+             shape = 21, show.legend = FALSE, color = "#000000") +
+  geom_text_repel(data = data %>%
+                    tidyr::drop_na() %>%
+                    dplyr::filter(change != "Normal") %>%
+                    dplyr::arrange(desc(-log10(p_value))) %>%
+                    dplyr::slice(1:15) %>%
+                    dplyr::filter(change == "Up"),
+                  aes(x = log2FoldChange, y = -log10(p_value), label = SYMBOL),
+                  box.padding = 0.5,
+                  nudge_x = 0.5,
+                  nudge_y = 0.2,
+                  segment.curvature = -0.1,
+                  segment.ncp = 3,
+                  direction = "y",
+                  hjust = "left") +
+  scale_color_gradientn(
+    colours = c("#3288bd", "#66c2a5", "#ffffbf", "#f46d43", "#9e0142"),
+    values = scales::rescale(c(-20, -10, 0, 10, 20), to = c(0, 1))
+  ) +
+  geom_vline(xintercept = c(-log2(1.5), log2(1.5)), linetype = 2) +
+  geom_hline(yintercept = -log10(0.05), linetype = 4) +
+  xlim(c(-20,20)) +
+  ylim(c(-1, 10)) +
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        legend.background = element_roundrect(color = "#808080", linetype = 1),
+        axis.text = element_text(size = 13, color = "#000000"),
+        axis.title = element_text(size = 15),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  annotate(geom = "text", x = 15, y = 2, label = "p = 0.05", size = 5) +
+  coord_cartesian(clip = "off") +
+  annotation_custom(
+    grob = grid::segmentsGrob(
+      y0 = unit(-10, "pt"),
+      y1 = unit(-10, "pt"),
+      arrow = arrow(angle = 45, length = unit(.2, "cm"), ends = "first"),
+      gp = grid::gpar(lwd = 3, col = "#74add1")
+    ),
+    xmin = -20,
+    xmax = -1,
+    ymin = 10,
+    ymax = 10
+  ) +
+  annotation_custom(
+    grob = grid::textGrob(
+      label = "Down",
+      gp = grid::gpar(col = "#74add1")
+    ),
+    xmin = -20,
+    xmax = -1,
+    ymin = 10,
+    ymax = 10
+  ) +
+  annotation_custom(
+    grob = grid::segmentsGrob(
+      y0 = unit(-10, "pt"),
+      y1 = unit(-10, "pt"),
+      arrow = arrow(angle = 45, length = unit(.2, "cm"), ends = "last"),
+      gp = grid::gpar(lwd = 3, col = "#d73027")
+    ),
+    xmin = 20,
+    xmax = 1,
+    ymin = 10,
+    ymax = 10
+  ) +
+  annotation_custom(
+    grob = grid::textGrob(
+      label = "Up",
+      gp = grid::gpar(col = "#d73027")
+    ),
+    xmin = 20,
+    xmax = 1,
+    ymin = 10,
+    ymax = 10
+  )
+```
+
+## Figure 1J. FBA & FVA predicted NH3 flux.
+
+```{r }
+FBA_FVA_long <- read.csv("Tables/FBA_FVA_long.csv", check.names = FALSE)
+FBA_FVA_long_H <- read.csv("Tables/FBA_FVA_long_H.csv", check.names = FALSE)
+
+ggplot(FBA_FVA_long, aes(x = species, y = variable, fill = value)) + 
+  geom_tile(width = 0.9, height = 0.9) + 
+  labs(x = element_blank(), y = element_blank(), fill = "Flux Value") + 
+  theme_classic() + 
+  theme(legend.position = "bottom", 
+        axis.text.x = element_text(angle = 0, hjust = 1)) + 
+  geom_text(data = subset(FBA_FVA_long, value == 0), aes(label = "X")) + 
+  scale_fill_gradient(low = "white", high = "blue", na.value = "white", limits = c(0, 5))+
+  coord_flip()
+
+
+ggplot(FBA_FVA_long_H, aes(x = species, y = variable, fill = value)) + 
+  geom_tile(width = 0.9, height = 0.9) + 
+  labs(x = element_blank(), y = element_blank(), fill = "Flux Value") + 
+  theme_classic() + 
+  theme(legend.position = "bottom", 
+        axis.text.x = element_text(angle = 90, hjust = 1)) + 
+  geom_text(data = subset(FBA_FVA_long_H, value == 0), aes(label = "X")) + 
+  scale_fill_gradient(low = "white", high = "blue", na.value = "white")
+```
+
+## Figure 1K. Predicted NH3 production accross different diets.
+
+```{r }
+Predicted_NH3_tMSPs <- read.csv("Tables/Predicted_NH3_tMSPs.csv", check.names = FALSE)
+
+set2_colors <- RColorBrewer::brewer.pal(6, "Set2")
+
+custom_colors <- c(
+  UK_avg_FBA = set2_colors[1],
+  UK_avg_FVA = set2_colors[6],
+  HFD_P      = set2_colors[2],
+  HFD_O      = set2_colors[3],
+  HPD_P      = set2_colors[4],
+  HPD_O      = set2_colors[5]
+)
+
+ggplot(Predicted_NH3_tMSPs, aes(x = reorder(species, Flux), y = Flux)) +
+  geom_boxplot(
+    fill = "grey",
+    color = "black",
+    width = 0.5,
+    outlier.shape = 21,
+    outlier.alpha = 0.5,
+    linewidth = 0.4
+  ) +
+  geom_jitter(
+    aes(color = Condition),
+    size = 2,
+    width = 0.15,
+    alpha = 0.8
+  ) +
+  coord_flip() +
+  theme_bw(base_size = 12) +
+  labs(
+    x = "Species",
+    y = "Estimated ammonia production"
+  ) +
+  scale_color_manual(
+    values = custom_colors,
+    name = "Diet"
+  ) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.y = element_markdown(face = "italic"),
+    axis.text = element_text(color = "black"),
+    legend.title = element_text(size = 11, face = "bold"),
+    legend.text = element_text(size = 10),
+    panel.border = element_rect(color = "black", size = 0.4)
+  )
+```
+
+## Figure 1L. Predicted acetate production across different diets.
+
+```{r }
+Predicted_acetate_tMSPs <- read.csv("Tables/Predicted_acetate_tMSPs.csv", check.names = FALSE)
+
+ggplot(Predicted_acetate_tMSPs, aes(x = reorder(species, Flux), y = Flux)) +
+  geom_boxplot(
+    fill = "grey",
+    color = "black",
+    width = 0.5,
+    outlier.shape = 21,
+    outlier.alpha = 0.5,
+    linewidth = 0.4
+  ) +
+  geom_jitter(
+    aes(color = Condition),
+    size = 2,
+    width = 0.15,
+    alpha = 0.8
+  ) +
+  coord_flip() +
+  theme_bw(base_size = 12) +
+  labs(
+    x = "Species",
+    y = "Estimated acetate production"
+  ) +
+  scale_color_manual(
+    values = custom_colors,
+    name = "Diet"
+  ) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.y = element_markdown(face = "italic"),
+    axis.text = element_text(color = "black"),
+    legend.title = element_text(size = 11, face = "bold"),
+    legend.text = element_text(size = 10),
+    panel.border = element_rect(color = "black", size = 0.4)
+  )
+
+```
+
+## Figure 1M. Correlation analysis of relative abundance with disease severity.
+
+```{r }
+# stat
+gut_16MSP_MELD <- read.csv("Tables/gut_16MSP_MELD.csv", check.names = FALSE)
+
+MSP_16 = c("msp_0005", "msp_0166", "msp_0313", "msp_0380", "msp_0570","msp_0573", 
+           "msp_0627", "msp_0881", "msp_0884","msp_1219", "msp_1782", "msp_1786", 
+           "msp_1787","msp_1788", "msp_1793", "msp_1799")
+cor_gut16_MELD_results <- data.frame(msp = MSP_16, correlation = NA, p_value = NA)
+
+for (i in seq_along(MSP_16)) {
+  msp_col <- MSP_16[i]
+  
+  test_result <- cor.test(gut_16MSP_MELD[[msp_col]], gut_16MSP_MELD$MELD, method = "spearman")
+  
+  cor_gut16_MELD_results$correlation[i] <- test_result$estimate
+  cor_gut16_MELD_results$p_value[i] <- test_result$p.value
+}
+
+cor_gut16_MELD_results$FDR <- p.adjust(
+  cor_gut16_MELD_results$p_value,
+  method = "BH"
+)
+
+# View stats results
+print(cor_gut16_MELD_results)
+
+# Corr plot
+cor_gut16_MELD_results$significance <- ifelse(cor_gut16_MELD_results$FDR <= 0.001, "***",
+                                              ifelse(cor_gut16_MELD_results$FDR <= 0.01, "**",
+                                                     ifelse(cor_gut16_MELD_results$FDR <= 0.05, "*",
+                                                            ifelse(cor_gut16_MELD_results$FDR <= 0.1, "·", ""))))
+cor_gut16_MELD_results$msp <- factor(
+  cor_gut16_MELD_results$msp,
+  levels = cor_gut16_MELD_results$msp[order(cor_gut16_MELD_results$correlation)]
+)
+
+ggplot(cor_gut16_MELD_results, aes(x = "MELD", y = msp)) +
+  geom_tile(aes(fill = correlation), color = "white") +
+  scale_fill_gradient2(
+    low = "dodgerblue",
+    mid = "white",
+    high = "firebrick",
+    midpoint = 0,
+    limits = c(-0.4, 0.4),
+    name = "Spearman\nrho"
+  ) +
+  geom_text(aes(label = significance), color = "black", size = 5) +
+  labs(
+    x = "",
+    y = "Gut MSPs"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    axis.text.y = element_text(size = 8),
+    panel.grid = element_blank()
+  )
+
+```
+
+## Figure 1N. Co-abundance analysis of 16 tMSPs.
+
+Code for making the table suitable for Cytoscape visualization.
+
+```{r }
+abundance_data_t <- read.csv("Tables/abundance_data_t.csv", row.names = 1)
+abundance_data_t <- as.data.frame(abundance_data_t)
+abundance_data_t[] <- lapply(abundance_data_t, function(x) as.numeric(as.character(x)))
+feature_names <- colnames(abundance_data_t)
+
+## Spearman stat
+
+edge_list <- data.frame(
+  source = character(),
+  target = character(),
+  correlation = numeric(),
+  p_value = numeric(),
+  stringsAsFactors = FALSE
+)
+
+for (i in 1:(ncol(abundance_data_t) - 1)) {
+  for (j in (i + 1):ncol(abundance_data_t)) {
+    
+    feature1 <- colnames(abundance_data_t)[i]
+    feature2 <- colnames(abundance_data_t)[j]
+    
+    x <- abundance_data_t[[i]]
+    y <- abundance_data_t[[j]]
+    
+    complete_idx <- complete.cases(x, y)
+    x_use <- x[complete_idx]
+    y_use <- y[complete_idx]
+    
+    if (length(x_use) < 3) next
+    
+    if (sd(x_use) == 0 || sd(y_use) == 0) next
+    
+    cor_test_spearman <- suppressWarnings(
+      cor.test(x_use, y_use, method = "spearman", exact = FALSE)
+    )
+    
+    edge_list <- rbind(
+      edge_list,
+      data.frame(
+        source = feature1,
+        target = feature2,
+        correlation = unname(cor_test_spearman$estimate),
+        p_value = cor_test_spearman$p.value,
+        stringsAsFactors = FALSE
+      )
+    )
+  }
+}
+
+# FDR
+edge_list$FDR <- p.adjust(edge_list$p_value, method = "BH")
+
+# Table for Cytoscape network visualization
+edge_list <- edge_list %>%
+  mutate(
+    abs_correlation = abs(correlation),
+    correlation_sign = ifelse(correlation > 0, "positive", "negative"),
+    significance = case_when(
+      FDR <= 0.001 ~ "***",
+      FDR <= 0.01  ~ "**",
+      FDR <= 0.05  ~ "*",
+      FDR <= 0.1   ~ "·",
+      TRUE ~ ""
+    )
+  )
+
+cytoscape_edges_all <- edge_list %>%
+  arrange(FDR, desc(abs_correlation))
+
+cytoscape_edges_filtered <- cytoscape_edges_all %>%
+  filter(FDR <= 0.05)
+
+head(cytoscape_edges_filtered)
+```

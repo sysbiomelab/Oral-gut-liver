@@ -1,0 +1,857 @@
+"rxns","metabolite","n0","n5","c0","c5","log2FC_0","log2FC_5","label_flag"
+"HMR_7108","benzo",0,0,0,0,0,0,FALSE
+"HMR_7110","naphthalene",0,0,0,0,0,0,FALSE
+"HMR_7112","aflatoxin B1",0,0,0,0,0,0,FALSE
+"HMR_7114","trichloroethene",0,0,0,0,0,0,FALSE
+"HMR_7116","bromobenzene",0,0,0,0,0,0,FALSE
+"HMR_7118","7,12-dimethylbenz",0,0,0,0,0,0,FALSE
+"HMR_7120","4-(n-nitrosomethylamino)-1-(3-pyridyl)-1-butanone",0,0,0,0,0,0,FALSE
+"HMR_7122","1-nitronaphthalene",0,0,0,0,0,0,FALSE
+"HMR_7124","1,1-dichloroethylene",0,0,0,0,0,0,FALSE
+"HMR_7126","1,2-dibromoethane",0,0,0,0,0,0,FALSE
+"HMR_9024","chylomicron",0,0,0,0,0,0,FALSE
+"HMR_9810","valeric acid",0,0,0,0,0,0,FALSE
+"HMR_9811","hexanoic acid",0,0,0,0,0,0,FALSE
+"HMR_9812","heptylic acid",0,0,0,0,0,0,FALSE
+"HMR_9813","octanoic acid",0.695647282,0.209386685,0,0,-19.4079985419068,-17.6758170680337,TRUE
+"HMR_9814","nonanoic acid",0,0,0,0,0,0,FALSE
+"HMR_9815","decanoic acid",0,0,0,0,0,0,FALSE
+"HMR_9816","undecylic acid",0,0,0,0,0,0,FALSE
+"HMR_9037","phytanic acid",0,0,0,0,0,0,FALSE
+"HMR_9049","VLDL",0,0,0,0,0,0,FALSE
+"HMR_9052","chylomicron remnant",0,0,0,0,0,0,FALSE
+"HMR_9053","VLDL remnant",0,0,0,0,0,0,FALSE
+"HMR_9055","LDL remnant",0,0,0,0,0,0,FALSE
+"HMR_9061","alanine",0,1.603793245,0,1.510240729,0,-0.0867095809841524,FALSE
+"HMR_9065","cysteine",0,0,0,0,0,0,FALSE
+"HMR_9074","sulfate",0.001610701,0.00203607,0.000971094,0.00146854,-0.729416390295986,-0.471130927781187,FALSE
+"HMR_9075","urate",0,0,0,0,0,0,FALSE
+"HMR_9078","HCO3-",4.677138506,4.677146057,0.488327867,4.734131677,-3.25970149209085,0.0174713489466445,FALSE
+"HMR_9080","zinc",0,0,0,0,0,0,FALSE
+"HMR_9081","K+",0,0,0,0,0,0,FALSE
+"HMR_9085","glycerol",0,0,0,0,0,0,FALSE
+"HMR_9086","acetate",3.67834319,2.830275223,4.873779122,8.461187714,0.405984684191657,1.57991750121458,FALSE
+"HMR_9087","ornithine",0,3.567311176,1.448017917,4.87353977,20.465649019317,0.450132841642212,TRUE
+"HMR_9092","dopamine",0,0,0,0,0,0,FALSE
+"HMR_9093","noradrenaline",0,0,0,0,0,0,FALSE
+"HMR_9094","5-hydroxy-L-tryptophan",0,0,0,0,0,0,FALSE
+"HMR_9095","adrenaline",0,0,0,0,0,0,FALSE
+"HMR_9096","Fe3+",0,0,0,0,0,0,FALSE
+"HMR_9097","D-aspartate",0,0,0,0,0,0,FALSE
+"HMR_9098","D-alanine",0,0,0,0,0,0,FALSE
+"HMR_9099","ethanol",0,0,0,0,0,0,FALSE
+"HMR_9100","5-formyl-THF",0,0,0,0,0,0,FALSE
+"HMR_9101","PNP",0,0,0,0,0,0,FALSE
+"HMR_9103","H2S",0,0,0,0,0,0,FALSE
+"HMR_9104","1-methylnicotinamide",0,0,0,0,0,0,FALSE
+"HMR_9105","thiamin-P",0,0,0,0,0,0,FALSE
+"HMR_9106","thiamin-PPP",0,0,0,0,0,0,FALSE
+"HMR_9107","heme",0.04290491,0,0.043525866,0,0.020729764713141,0,FALSE
+"HMR_9108","dihydroneopterin",0,0,0,0,0,0,FALSE
+"HMR_9110","biocytin",0,0,0,0,0,0,FALSE
+"HMR_9111","heparan sulfate proteoglycan",0,0,0,0,0,0,FALSE
+"HMR_9113","keratan sulfate I",0,0,0,0,0,0,FALSE
+"HMR_9114","keratan sulfate I, degradation product 1",0,0,0,0,0,0,FALSE
+"HMR_9115","keratan sulfate II (core 2-linked)",0,0,0,0,0,0,FALSE
+"HMR_9116","keratan sulfate II (core 4-linked)",0,0,0,0,0,0,FALSE
+"HMR_9117","chondroitin sulfate A (GalNAc4S-GlcA) proteoglycan",0,0,0,0,0,0,FALSE
+"HMR_9118","chondroitin sulfate B - dermatan sulfate (IdoA2S-GalNAc4S) proteoglycan",0,0,0,0,0,0,FALSE
+"HMR_9119","chondroitin sulfate C (GalNAc6S-GlcA) proteoglycan",0,0,0,0,0,0,FALSE
+"HMR_9120","chondroitin sulfate D (GlcNAc6S-GlcA2S) proteoglycan",0,0,0,0,0,0,FALSE
+"HMR_9121","chondroitin sulfate E (GalNAc4,6diS-GlcA) proteoglycan",0,0,0,0,0,0,FALSE
+"HMR_9122","hyaluronate",0,0,0,0,0,0,FALSE
+"HMR_9124","de-Fuc form of PA6",0,0,0,0,0,0,FALSE
+"HMR_9125","PA6",0,0,0,0,0,0,FALSE
+"HMR_9126","n2m2nmasn",0,0,0,0,0,0,FALSE
+"HMR_9129","estradiol-17beta 3-glucuronide",0,0,0,0,0,0,FALSE
+"HMR_9132","acetoacetate",0.19621627,0.19751046,0.10742423,0.195797693,-0.869119159526209,-0.0125652290352183,FALSE
+"HMR_9133","pyruvate",0,0,0.096729809,0,16.5616878443536,0,TRUE
+"HMR_9135","L-lactate",3.553171097,0.422747532,3.487552776,1.300076495,-0.0268921043233943,1.62072597198288,FALSE
+"HMR_9136","D-lactate",0,0,0,0,0,0,FALSE
+"HMR_9137","mannose",0,0,0,0,0,0,FALSE
+"HMR_9139","fructose",0,0,1.027992487,0,19.9713996934838,0,TRUE
+"HMR_9141","ADP-ribose",0,0,0,0,0,0,FALSE
+"HMR_9147","retinol",0,0,0,0,0,0,FALSE
+"HMR_9150","chloride",0,0,0,0,0,0,FALSE
+"HMR_9152","alpha-tocotrienol",0,0,0,0,0,0,FALSE
+"HMR_9154","gamma-tocotrienol",0,0,0,0,0,0,FALSE
+"HMR_9155","ITP",0,0,0,0,0,0,FALSE
+"HMR_9156","dITP",0,0,0,0,0,0,FALSE
+"HMR_9158","ascorbate",0,0,0,0,0,0,FALSE
+"HMR_9160","hydrogen-cyanide",0,0,0,0,0,0,FALSE
+"HMR_9162","lepidimoide",0,0,0,0,0,0,FALSE
+"HMR_9163","leukotriene F4",0,0,0,0,0,0,FALSE
+"HMR_9166","chitin-component",0,0,0,0,0,0,FALSE
+"HMR_9168","glucosamine",0,0,0,0,0,0,FALSE
+"HMR_9169","selenate",0,0,0,0,0,0,FALSE
+"HMR_9203","D-xylose",0,0,0,0,0,0,FALSE
+"HMR_9204","glycophosphatidylinositol-(GPI)-anchored-protein-precursor",0,0,0,0,0,0,FALSE
+"HMR_9205","10-formyl-THF",0,0,0,0,0,0,FALSE
+"HMR_9206","10-formyl-THF-glu(5)",0,0,0,0,0,0,FALSE
+"HMR_9207","10-formyl-THF-glu(6)",0,0,0,0,0,0,FALSE
+"HMR_9208","10-formyl-THF-glu(7)",0,0,0,0,0,0,FALSE
+"HMR_9219","L-dopa",0,0,0,0,0,0,FALSE
+"HMR_9220","cGMP",0,0,0,0,0,0,FALSE
+"HMR_9230","5alpha-dihydrotestosterone-glucuronide",0,0,0,0,0,0,FALSE
+"HMR_9232","pentaglutamyl-folate(DHF)",0,0,0,0,0,0,FALSE
+"HMR_9234","5-methyl-THF",0.002264941,0.002265092,0,0,-11.1458945817801,-11.1459907183048,TRUE
+"HMR_9235","pentaglutamyl-folate(THF)",0,0,0,0,0,0,FALSE
+"HMR_9236","hexaglutamyl-folate(DHF)",0,0,0,0,0,0,FALSE
+"HMR_9238","hexaglutamyl-folate(THF)",0,0,0,0,0,0,FALSE
+"HMR_9239","heptaglutamyl-folate(DHF)",0,0,0,0,0,0,FALSE
+"HMR_9240","heptaglutamyl-folate(THF)",0,0,0,0,0,0,FALSE
+"HMR_9243","acetone",0,0,0,0,0,0,FALSE
+"HMR_9253","adenine",0,0,0,0,0,0,FALSE
+"HMR_9254","adenosine",0,0,0,0,0,0,FALSE
+"HMR_9255","ADP",0,0,0,0,0,0,FALSE
+"HMR_9257","etiocholan-3alpha-ol-17-one 3-glucuronide",0,0,0,0,0,0,FALSE
+"HMR_9258","1-alkyl-2-lysoglycerol-3-phosphocholine",0,0,0,0,0,0,FALSE
+"HMR_9259","AKG",0.028083781,0,0.257305037,0,3.19562484826049,0,FALSE
+"HMR_9260","beta-alanine",0,0,0,0,0,0,FALSE
+"HMR_9262","AMP",0,0,0,0,0,0,FALSE
+"HMR_9264","androsterone-glucuronide",0,0,0,0,0,0,FALSE
+"HMR_9265","antipyrine",0,0,0,0,0,0,FALSE
+"HMR_9267","(+)-alpha-pinene",0,0,0,0,0,0,FALSE
+"HMR_9268","20alpha-hydroxy-4-pregnen-3-one",0,0,0,0,0,0,FALSE
+"HMR_9270","L-arabinose",0,0,0,0,0,0,FALSE
+"HMR_9272","bilirubin-monoglucuronoside",0,0,0,0,0,0,FALSE
+"HMR_9273","bilirubin",0,0,0,0,0,0,FALSE
+"HMR_9275","cAMP",0,0,0,0,0,0,FALSE
+"HMR_9279","cys-gly",0,0,0,0,0,0,FALSE
+"HMR_9280","cholate",0,0,0,0,0,0,FALSE
+"HMR_9281","glycocholate",0,0,0,0,0,0,FALSE
+"HMR_9282","taurocholate",0,0,0,0,0,0,FALSE
+"HMR_9283","glycochenodeoxycholate",0,0,0,0,0,0,FALSE
+"HMR_9284","taurochenodeoxycholate",0,0,0,0,0,0,FALSE
+"HMR_9285","cholesterol",0,0,0,0,0,0,FALSE
+"HMR_9286","citrate",0,0,0,0,0,0,FALSE
+"HMR_9287","CMP",0,0,0,0,0,0,FALSE
+"HMR_9289","coumarin",0,0,0,0,0,0,FALSE
+"HMR_9290","creatine",0,0,0,0,0,0,FALSE
+"HMR_9291","cytosine",0,0,0,0,0,0,FALSE
+"HMR_9292","L-carnitine",0,0,0,0,0,0,FALSE
+"HMR_9293","cortisol",0,0,0,0,0,0,FALSE
+"HMR_9295","cytidine",0,0,0,0,0,0,FALSE
+"HMR_9296","deoxycytidine",0,0,0,0,0,0,FALSE
+"HMR_9297","deoxyadenosine",0,0,0,0,0,0,FALSE
+"HMR_9299","debrisoquin",0,0,0,0,0,0,FALSE
+"HMR_9300","deoxyguanosine",0,0,0,0,0,0,FALSE
+"HMR_9301","dehydroascorbic acid",0,0,0,0,0,0,FALSE
+"HMR_9302","dehydroepiandrosterone sulfate",0,0,0,0,0,0,FALSE
+"HMR_9303","dihydrofolate",0,0,0,0,0,0,FALSE
+"HMR_9304","digalactosylceramidesulfate",0,0,0,0,0,0,FALSE
+"HMR_9305","deoxyinosine",0,0,0,0,0,0,FALSE
+"HMR_9310","deoxyuridine",0,0,0,0,0,0,FALSE
+"HMR_9312","ebastine",0,0,0,0,0,0,FALSE
+"HMR_9315","16-glucuronide-estriol",0,0,0,0,0,0,FALSE
+"HMR_9316","estrone-glucuronide",0,0,0,0,0,0,FALSE
+"HMR_9318","formate",0,0.00031047,0,0.024110627,0,6.27449198069895,TRUE
+"HMR_9330","6-deoxy-L-galactose",0,0,0,0,0,0,FALSE
+"HMR_9338","(5-L-glutamyl)-L-amino acid",0,0,0,0,0,0,FALSE
+"HMR_9340","GDP",0,0,0,0,0,0,FALSE
+"HMR_9341","betaine",0.019746462,0.020199705,0,0,-14.2693796254822,-14.3021180231332,TRUE
+"HMR_9343","GMP",0,0,0,0,0,0,FALSE
+"HMR_9346","GQ1b",0,0,0,0,0,0,FALSE
+"HMR_9348","guanosine",0,0,0,0,0,0,FALSE
+"HMR_9350","GSSG",0,0,0,0,0,0,FALSE
+"HMR_9352","GTP",0,0,0,0,0,0,FALSE
+"HMR_9353","guanine",0,0,0,0,0,0,FALSE
+"HMR_9354","H2O2",0,0,0,0,0,0,FALSE
+"HMR_9359","IDP",0,0,0,0,0,0,FALSE
+"HMR_9360","IMP",0,0,0,0,0,0,FALSE
+"HMR_9362","inosine",0,0,0,0,0,0,FALSE
+"HMR_9364","leukotriene A4",0.123360027,0.00295466,0,0,-16.9125271555161,-11.5292646053891,TRUE
+"HMR_9365","leukotriene B4",0,0,0.134602847,0,17.0383601174349,0,TRUE
+"HMR_9366","leukotriene C4",0,0,0,0,0,0,FALSE
+"HMR_9367","LTD4",0,0,0,0,0,0,FALSE
+"HMR_9368","leukotriene E4",0,0,0,0,0,0,FALSE
+"HMR_9369","limonene",0,0,0,0,0,0,FALSE
+"HMR_9370","maltose",0,0,0,0,0,0,FALSE
+"HMR_9371","maltotriose",0,0,0,0,0,0,FALSE
+"HMR_9378","nicotinamide",0,0,0,0,0,0,FALSE
+"HMR_9379","nifedipine",0,0,0,0,0,0,FALSE
+"HMR_9383","O2-",0,0,0,0,0,0,FALSE
+"HMR_9386","hydroxide",0,1.095478382,0,0,0,-20.0631309009674,TRUE
+"HMR_9387","omeprazole",0,0,0,0,0,0,FALSE
+"HMR_9394","D-proline",0,0,0,0,0,0,FALSE
+"HMR_9395","prostaglandin D2",0,0,0,0,0,0,FALSE
+"HMR_9396","prostaglandin E1",0,0,0,0,0,0,FALSE
+"HMR_9397","prostaglandin E2",0,0,0,0,0,0,FALSE
+"HMR_9398","prostaglandin F2alpha",0,0,0,0.212634288,0,17.698021514382,TRUE
+"HMR_9399","pyridoxamine",0,0,0,0,0,0,FALSE
+"HMR_9411","sphingosine-1-phosphate",0,0,0,0,0,0,FALSE
+"HMR_9412","serotonin",0.0237197,0,0,0,-14.5338589641226,0,TRUE
+"HMR_9415","succinate",0,0,0,0,0,0,FALSE
+"HMR_9416","sucrose",0,0,0,0,0,0,FALSE
+"HMR_9417","D-tagatose",0,0,0,0,0,0,FALSE
+"HMR_9419","paclitaxel",0,0,0,0,0,0,FALSE
+"HMR_9421","THF",0,0,0,0,0,0,FALSE
+"HMR_9422","thymine",0.473135067,0.473135067,0.80640043,0.80640043,0.769243055996815,0.769243055996815,FALSE
+"HMR_9424","thyroxine",0,0,0,0,0,0,FALSE
+"HMR_9425","tolbutamide",0,0,0,0,0,0,FALSE
+"HMR_9426","trehalose",0,0,0,0,0,0,FALSE
+"HMR_9427","triiodothyronine",0,0,0,0,0,0,FALSE
+"HMR_9430","testosterone glucuronide",0,0,0,0,0,0,FALSE
+"HMR_9435","UDP",0,0,0,0,0,0,FALSE
+"HMR_9436","UMP",0,0,0,0,0,0,FALSE
+"HMR_9437","uracil",0.473135067,0.473135067,0.80640043,0.80640043,0.769243055996815,0.769243055996815,FALSE
+"HMR_9438","urea",0,1.045990676,1.044602771,1.1439626,19.9945243862584,0.129169776787052,TRUE
+"HMR_9439","uridine",0,0,0,0,0,0,FALSE
+"HMR_9440","UTP",0,0,0,0,0,0,FALSE
+"HMR_9441","vitamin D2",0,0,0,0,0,0,FALSE
+"HMR_9447","galactosylglycerol",0,0,0,0,0,0,FALSE
+"HMR_9448","maltodecaose",0,0,0,0,0,0,FALSE
+"HMR_9450","XTP",0,0,0,0,0,0,FALSE
+"HMR_9453","etiocholanolone",0,0,0,0,0,0,FALSE
+"HMR_9454","D-ornithine",0,0,0,0,0,0,FALSE
+"HMR_9455","D-arginine",0,0,0,0,0,0,FALSE
+"HMR_9456","ADP-glucose",0,0,0,0,0,0,FALSE
+"HMR_9457","ADP-mannose",0,0,0,0,0,0,FALSE
+"HMR_9458","D-ribulose",0,0,0,0,0,0,FALSE
+"HMR_9460","creatinine",0,0,0,0,0,0,FALSE
+"HMR_9682","4-nitrophenyl-phosphate",0,0,0,0,0,0,FALSE
+"HMR_9683","5-L-gamma-glutamyl",0,0,0,0,0,0,FALSE
+"HMR_9685","D-glucitol",2.684420247,0,0,0.874480448,-21.3561796504271,19.7380682523375,TRUE
+"HMR_9690","orotate",0,0,0,0,0,0,FALSE
+"HMR_9692","spermine dialdehyde",0,0,0,0,0,0,FALSE
+"HMR_9701","coproporphyrin I",0,0,0,0,0,0,FALSE
+"HMR_9702","coproporphyrin III",0,0,0,0,0,0,FALSE
+"HMR_9715","spermine",0,0,0,0,0,0,FALSE
+"HMR_9730","albumin",0,0,0,0,0,0,FALSE
+"EX_adrn[e]","adrenic acid",0.013011256,0.002165526,0.014055475,0.022385107,0.111363738195946,3.36914820643607,FALSE
+"EX_arach[e]","eicosanoate",0.008421385,0.001402951,0.009097966,0.014487016,0.111473782997535,3.36729555524924,FALSE
+"EX_arachd[e]","arachidonate",0,0,0,0,0,0,FALSE
+"EX_atp[e]","ATP",0,0,0,0,0,0,FALSE
+"EX_clpnd[e]","DPA",0.014518115,0.002402634,0.015675888,0.024992761,0.110685682439044,3.37827887145871,FALSE
+"EX_crvnc[e]","DHA",0,0.00576291,0.037850727,0.060429633,15.2080715047934,3.39016034010473,TRUE
+"EX_dcsptn1[e]","(4Z,7Z,10Z,13Z,16Z)-DPA",0.000745412,0,0,0,-9.54382837023198,0,TRUE
+"EX_dlnlcg[e]","dihomo-gamma-linolenate",0,0,0,0,0,0,FALSE
+"EX_eicostet[e]","omega-3-arachidonic acid",0,0,0.000741744,0,9.53672123557058,0,TRUE
+"EX_elaid[e]","elaidate",0.000765775,0.000127685,0,0,-9.58265948979072,-7.00770008725868,TRUE
+"EX_glygn2[e]","glycogenin G4G7",0,0,0,0,0,0,FALSE
+"EX_glygn4[e]","Glycogen, Structure 4 (Glycogenin-1,6-{2",0,0,0,0,0,0,FALSE
+"EX_hdca[e]","palmitate",2.258271541,0,2.438687291,3.565592732,0.110885757935808,21.7657108992587,TRUE
+"EX_hdcea[e]","palmitolate",0.525321898,0,0.567404919,0.903480665,0.111176729757474,19.7851357981808,TRUE
+"EX_hexc[e]","cerotic acid",0.003826733,0.00063684,0.004133815,0,0.111332582275598,-9.31705076399099,TRUE
+"EX_hista[e]","histamine",0.094967334,0.07149524,0,0.094823028,-16.5351589246061,0.407385305857161,TRUE
+"EX_hpdca[e]","margaric acid",0.042879133,0.007145613,0.046323145,0.073759263,0.111454968257846,3.36751222849474,FALSE
+"EX_lgnc[e]","lignocerate",0.009187161,0.001530637,0.009925325,0,0.111483554373759,-10.5808587017986,TRUE
+"EX_lneldc[e]","(6Z,9Z)-octadecadienoic acid",0.000765775,0.000127685,0.000827359,0.001317213,0.111452848471824,3.35666770068998,FALSE
+"EX_lnlncg[e]","gamma-linolenate",0.036757217,0.006128888,0.03971321,0.063226209,0.111588516588283,3.36661291731672,FALSE
+"EX_lpchol_hs[e]","2-lysolecithin pool",0,0,0,0,0,0,FALSE
+"EX_nrvnc[e]","nervonic acid",0.002295183,0.00038147,0.002479098,0,0.111159503453576,-8.5792027805902,TRUE
+"EX_ocdca[e]","stearate",0.789514398,0.1316434,0.853006655,1.358046289,0.11159128514218,3.36681565977469,FALSE
+"EX_ocdcea[e]","oleate",2.868594504,0.478308611,3.099285092,4.934278756,0.111591384447711,3.3668228278218,FALSE
+"EX_pchol_hs[e]","PC-LD pool",0,0,0,0,0,0,FALSE
+"EX_pe_hs[e]","PE-LD pool",0,0,0,0,0,0,FALSE
+"EX_ps_hs[e]","PS-LD pool",0,0,0,0,0,0,FALSE
+"EX_ptdca[e]","pentadecylic acid",0.022971117,0.003828969,0.024817778,0.039514057,0.111548268677455,3.36699786919098,FALSE
+"EX_strdnc[e]","stearidonic acid",0,0,0,0,0,0,FALSE
+"EX_tag_hs[e]","TAG-VLDL pool",0,0,0,0,0,0,FALSE
+"EX_tethex3[e]","(6Z,9Z,12Z,15Z,18Z,21Z)-THA",0.000765775,0.000127685,0.000824381,0,0.106256928344376,-7.00770008725868,TRUE
+"EX_tetpent3[e]","(9Z,12Z,15Z,18Z,21Z)-TPA",0.000761488,0.000124515,0.000824381,0,0.114345595684982,-6.97171597731702,TRUE
+"EX_tetpent6[e]","(6Z,9Z,12Z,15Z,18Z)-TPA",0.000765775,0,0,0,-9.58265948979072,0,TRUE
+"EX_tettet6[e]","(9Z,12Z,15Z,18Z)-TTA",0.000761488,0,0.000824381,0,0.114345595684982,0,FALSE
+"EX_tmndnc[e]","EPA",0,0,0.016547171,0.026344254,14.0143841503556,14.6852554686468,TRUE
+"EX_ttdca[e]","myristic acid",0.216714427,0,0.234142467,0.372686944,0.11159092887771,18.5076086248351,TRUE
+"EX_vacc[e]","cis-vaccenic acid",0.000765775,0.000127685,0.000827359,0.001317213,0.111452848471824,3.35666770068998,FALSE
+"EX_xolest2_hs[e]","cholesterol-ester pool",0,0,0,0,0,0,FALSE
+"EX_4abutn[e]","4-aminobutanal",0,0,0,0,0,0,FALSE
+"EX_ahdt[e]","6-",0,0,0,0,0,0,FALSE
+"EX_ctp[e]","CTP",0,0,0,0,0,0,FALSE
+"EX_dgmp[e]","dGMP",0,0,0,0,0,0,FALSE
+"EX_dgtp[e]","dGTP",0,0,0,0,0,0,FALSE
+"EX_dha[e]","glycerone",0,0,0,0,0,0,FALSE
+"EX_dhap[e]","DHAP",0,0,0,0,0,0,FALSE
+"EX_dtmp[e]","dTMP",0,0,0,0,0,0,FALSE
+"EX_dttp[e]","dTTP",0,0,0,0,0,0,FALSE
+"EX_fad[e]","FAD",0,0,0,0,0,0,FALSE
+"EX_g1p[e]","glucose-1-phosphate",0,0,0,0,0,0,FALSE
+"EX_HC01577[e]","gamma-glutamyl-beta-cyanoalanine",0,0,0,0,0,0,FALSE
+"EX_HC01609[e]","uroporphyrinogen I",0,0,0,0,0,0,FALSE
+"EX_HC01610[e]","coproporphyrinogen I",0,0,0,0,0,0,FALSE
+"EX_HC01700[e]","gamma-glutamyl-3-aminopropiononitrile",0,0,0,0,0,0,FALSE
+"EX_HC02160[e]","GM2",0,0,0,0,0,0,FALSE
+"EX_HC02161[e]","GM1",0,0,0,0,0,0,FALSE
+"EX_prpp[e]","PRPP",0,0,0,0,0,0,FALSE
+"EX_udpg[e]","UDP-glucose",0,0,0,0,0,0,FALSE
+"EX_prostgh2[e]","prostaglandin H2",0,0,0,0,0,0,FALSE
+"EX_prostgi2[e]","prostaglandin I2",0,0,0,0,0,0,FALSE
+"EX_cdp[e]","CDP",0,0,0,0,0,0,FALSE
+"EX_dtdp[e]","dTDP",0,0,0,0,0,0,FALSE
+"EX_HC00955[e]","L-3-cyanoalanine",0,0,0,0,0,0,FALSE
+"EX_HC00004[e]","apoA1",0,0,0,0,0,0,FALSE
+"EX_HC01939[e]","haptoglobin",0,0,0,0,0,0,FALSE
+"EX_HC00822[e]","chitobiose",0,0,0,0,0,0,FALSE
+"EX_C02528[e]","Chenodeoxycholate",0,0,0,0,0,0,FALSE
+"EX_HC02192[e]","taurolithocholate",0,0,0,0,0,0,FALSE
+"EX_HC02193[e]","glycolithocholate",0,0,0,0,0,0,FALSE
+"EX_HC02195[e]","tauroursodeoxycholate",0,0,0,0,0,0,FALSE
+"EX_HC02196[e]","glycoursodeoxycholate",0,0,0,0,0,0,FALSE
+"EX_HC02220[e]","sulfochenodeoxycholate",0,0,0,0,0,0,FALSE
+"EX_HC02191[e]","lithocholate",0,0,0,0,0,0,FALSE
+"EX_HC02194[e]","ursodeoxycholate",0,0,0,0,0,0,FALSE
+"EX_HC02198[e]","sulfotaurolithocholate",0,0,0,0,0,0,FALSE
+"EX_HC02187[e]","reverse triiodthyronine",0,0,0,0,0,0,FALSE
+"EX_HC02180[e]","thromboxane B2",0,0,0,0,0,0,FALSE
+"EX_HC02204[e]","prostaglandin B1",0,0,0,0,0,0,FALSE
+"EX_HC02205[e]","prostaglandin B2",0,0,0,0,0,0,FALSE
+"EX_HC02206[e]","prostaglandin C1",0,0,0,0,0,0,FALSE
+"EX_HC02207[e]","prostaglandin C2",0,0,0,0,0,0,FALSE
+"EX_HC02208[e]","prostaglandin D1",0,0,0,0,0,0,FALSE
+"EX_HC02210[e]","prostaglandin D3",0,0,0,0,0,0,FALSE
+"EX_HC02213[e]","prostaglandin E3",0,0,0,0,0,0,FALSE
+"EX_HC02214[e]","prostaglandin F1alpha",0,0,0,0,0,0,FALSE
+"EX_HC02216[e]","prostaglandin F2beta",0,0,0,0,0,0,FALSE
+"EX_HC02217[e]","prostaglandin G2",0,0,0,0,0,0,FALSE
+"EX_CE1935[e]","spermine monoaldehyde",0,0,0,0,0,0,FALSE
+"EX_CE1940[e]","spermidine monoaldehyde 2",0,0,0,0,0,0,FALSE
+"EX_CE1943[e]","spermidine dialdehyde",0,0,0,0,0,0,FALSE
+"EX_CE1939[e]","spermidine monoaldehyde 1",0,0,0,0,0,0,FALSE
+"EX_CE2916[e]","neocasomorphin",0,0,0,0,0,0,FALSE
+"EX_CE4723[e]","neocasomorphin (1-5)",0,0,0,0,0,0,FALSE
+"EX_CE2838[e]","maltononaose",0,0,0,0,0,0,FALSE
+"EX_23cump[e]","2,3-cyclic-UMP",0,0,0,0,0,0,FALSE
+"EX_3ump[e]","3-UMP",0,0,0,0,0,0,FALSE
+"EX_CE5786[e]","kinetensin",0,0,0,0,0,0,FALSE
+"EX_CE5789[e]","kinetensin 1-8",0,0,0,0,0,0,FALSE
+"EX_CE5797[e]","neuromedin N",0,0,0,0,0,0,FALSE
+"EX_CE5798[e]","neuromedin N(1-4)",0,0,0,0,0,0,FALSE
+"EX_CE5787[e]","kinetensin 1-3",0,0,0,0,0,0,FALSE
+"EX_CE5791[e]","kinetensin 4-8",0,0,0,0,0,0,FALSE
+"EX_crm_hs[e]","ceramide pool",0,0,0,0,0,0,FALSE
+"EX_CE0074[e]","alloxan",0,0,0,0,0,0,FALSE
+"EX_C04849[e]","hepoxilin A3",0,0,0,0,0,0,FALSE
+"EX_c10crn[e]","Decanoyl Carnitine",0,0,0,0,0,0,FALSE
+"EX_doco13ac[e]","cis-erucic acid",0.001529407,0.000253785,0.001651739,0.002632101,0.110943535068845,3.36941061189417,FALSE
+"EX_docosac[e]","behenic acid",0.005358284,0.000892211,0.005788532,0.009218165,0.111406462289669,3.36756316517279,FALSE
+"EX_4hpro[e]","trans-4-hydroxy-L-proline",0,0,0,0,0,0,FALSE
+"EX_alaala[e]","D-Alanyl-D-Alanine",0,0,0,0,0,0,FALSE
+"EX_carn[e]","carnosine",0,0,0,0,0,0,FALSE
+"EX_dchac[e]","3alpha,12alpha-dihydroxy-5beta-cholanate",0,0,0,0,0,0,FALSE
+"EX_glygly[e]","Glycyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_glysar[e]","Glycylsarcosine",0,0,0,0,0,0,FALSE
+"EX_leugly[e]","Leucyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_leuleu[e]","Leucylleucine",0,0,0,0,0,0,FALSE
+"EX_tdechola[e]","taurodeoxycholate",0,0,0,0,0,0,FALSE
+"EX_fmn[e]","FMN",0,0,0,0,0,0,FALSE
+"EX_4mop[e]","4-methyl-2-oxopentanoate",0,0,0,0,0,0,FALSE
+"EX_ahcys[e]","SAH",0,0,0,0,0,0,FALSE
+"EX_Lkynr[e]","kynurenine",0,0,0,0,0,0,FALSE
+"EX_hLkynr[e]","3-hydroxy-L-kynurenine",0,0,0,0.023655477,0,14.5299476183552,TRUE
+"EX_acrn[e]","O-acetylcarnitine",0,0,0,0,0,0,FALSE
+"EX_pcrn[e]","O-propanoylcarnitine",0,0,0,0,0,0,FALSE
+"EX_lneldccrn[e]","(6Z,9Z)-octadecadienoylcarnitine",0,0,0,0,0,0,FALSE
+"EX_odecrn[e]","octadecenoylcarnitine(5)",0,0,0,0,0,0,FALSE
+"EX_stcrn[e]","stearoylcarnitine",0,0,0,0,0,0,FALSE
+"EX_pmtcrn[e]","L-palmitoylcarnitine",0,0,0,0,0,0,FALSE
+"EX_hdcecrn[e]","palmitoleoyl-carnitine",0,0,0,0,0,0,FALSE
+"EX_12HPET[e]","12(S)-HPETE",0,0,0,0,0,0,FALSE
+"EX_amet[e]","SAM",0,0,0,0,0,0,FALSE
+"EX_C02712[e]","N-acetylmethionine",0,0,0,0.09871077,0,16.590934495723,TRUE
+"EX_C04717[e]","13(S)-HPODE",0,0,0,0,0,0,FALSE
+"EX_C06315[e]","lipoxin B4",0,0,0,0.001182996,0,10.209448491651,TRUE
+"EX_CE1273[e]","5beta-cholestane-3alpha,7alpha,12alpha,24s,25-pentol",0,0,0,0,0,0,FALSE
+"EX_CE2537[e]","15(S)-HETrE",0,0,0,0,0,0,FALSE
+"EX_Lpipecol[e]","L-pipecolate",0,0,0,0,0,0,FALSE
+"EX_Nacasp[e]","N-acetyl-L-aspartate",0,0,0,0,0,0,FALSE
+"EX_pchol2linl_hs[e]","2-Linoleoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pchol2ole_hs[e]","2-Oleoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pchol2ste_hs[e]","2-Stearoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pcholar_hs[e]","1-Arachidonoyl-Glycero-3-Phosphocholine",0,0,0,0,0,0,FALSE
+"EX_pcholdoc_hs[e]","1-Docosahexaenoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pcholeic_hs[e]","1-Eicosadienoylglycerophosphocholine (Delta 11,14)",0,0,0,0,0,0,FALSE
+"EX_pcholet_hs[e]","1-Eicosatrienoylglycerophosphocholine (Delta 11, 14, 17)",0,0,0,0,0,0,FALSE
+"EX_pcholhep_hs[e]","1-Heptadecanoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pchollinl_hs[e]","1-Linoleoylglycerophosphocholine (Delta 9,12)",0,0,0,0,0,0,FALSE
+"EX_pcholmyr_hs[e]","1-Myristoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pcholn15_hs[e]","1-Pentadecanoylglycerophosphocholine, Sn1-Lpc (15:0)",0,0,0,0,0,0,FALSE
+"EX_pcholn183_hs[e]","1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 9, 12, 15)",0,0,0,0,0,0,FALSE
+"EX_pcholn1836_hs[e]","1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 6, 9, 12)",0,0,0,0,0,0,FALSE
+"EX_pcholn19_hs[e]","1-Nonadecanoylglycerophosphocholine, Sn1-Lpc (19:0)",0,0,0,0,0,0,FALSE
+"EX_pcholn201_hs[e]","1-Eicosenoylglycerophosphocholine (Delta 11) ,Sn1-Lpc (20:1)",0,0,0,0,0,0,FALSE
+"EX_pcholn203_hs[e]","1-Dihomo-Linolenoylglycerophosphocholine (20:3, Delta 8, 11, 14), Lysopc A C20:3",0,0,0,0,0,0,FALSE
+"EX_pcholn204_hs[e]","1-Eicosatetraenoylglycerophosphocholine (Delta 8, 11, 14, 17), Sn1-Lpc (20:4)",0,0,0,0,0,0,FALSE
+"EX_pcholn205_hs[e]","1-Eicosapentenoylglycerophosphocholine (Delta 5, 8, 11, 14, 17), Sn1-Lpc (20:5)",0,0,0,0,0,0,FALSE
+"EX_pcholn224_hs[e]","1-Docosatetraenoylglycerophosphocholine (Delta 7, 10, 13, 16), Sn1-Lpc (22:4)",0,0,0,0,0,0,FALSE
+"EX_pcholn225_hs[e]","1-Docosapentenoylglycerophosphocholine (Delta 7, 10, 13, 16, 19), Sn1-Lpc (22:5)-W3",0,0,0,0,0,0,FALSE
+"EX_pcholn2254_hs[e]","1-Docosapentenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16), Sn1-Lpc (22:5)-W6",0,0,0,0,0,0,FALSE
+"EX_pcholn226_hs[e]","1-Docosahexenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16, 19), Sn1-Lpc (22:6)",0,0,0,0,0,0,FALSE
+"EX_pcholn24_hs[e]","1-Lignocericylglycerophosphocholine (24:0), Lysopc A C24",0,0,0,0,0,0,FALSE
+"EX_pcholole_hs[e]","1-Oleoylglycerophosphocholine (Delta 9)",0,0,0,0,0,0,FALSE
+"EX_pcholpalm_hs[e]","1-Palmitoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pcholpalme_hs[e]","1-Palmitoleoylglycerophosphocholine (Delta 9)",0,0,0,0,0,0,FALSE
+"EX_pcholste_hs[e]","1-Stearoylglycerophosphocholine",0,0,0,0,0,0,FALSE
+"EX_pcollg5hlys[e]","L-hydroxylysine",0,0,0,0,0,0,FALSE
+"EX_pe12_hs[e]","1-Didecanoylglycerophosphoethanolamine (C12:0 Pe)",0,0,0,0,0,0,FALSE
+"EX_pe13_hs[e]","1-Tridecanoylglycerophosphoethanolamine (C13:0 Pe)",0,0,0,0,0,0,FALSE
+"EX_pe14_hs[e]","1-Myristoylglycerophosphoethanolamine (C14:0 Pe)",0,0,0,0,0,0,FALSE
+"EX_pe15_hs[e]","1-Pentadecanoylglycerophosphoethanolamine (C15:0 Pe)",0,0,0,0,0,0,FALSE
+"EX_pe161_hs[e]","1-Hexadecenoylglycerophosphoethanolamine (C16:1 Pe, Delta 9)",0,0,0,0,0,0,FALSE
+"EX_pe17_hs[e]","1-Heptadecanoylglycerophosphoethanolamine (C17:0 Pe)",0,0,0,0,0,0,FALSE
+"EX_pe203_hs[e]","1-Eicosatrienoylglycerophosphoethanolamine (Delta 11, 14, 17), Lpe (20:3)",0,0,0,0,0,0,FALSE
+"EX_pe226_hs[e]","1-Docosahexenoylglyceroethanolamine (Delta 4, 7, 10, 13, 16, 19), Lpe (22:6)",0,0,0,0,0,0,FALSE
+"EX_pe2linl_hs[e]","2-Linoleoylglycerophosphoethanolamine",0,0,0,0,0,0,FALSE
+"EX_pear_hs[e]","1-Arachidonoyl-Sn-Glycero-3-Phosphoethanolamine",0,0,0,0,0,0,FALSE
+"EX_pedh203_hs[e]","1-Dihomo-Linolenoylglycerophosphoethanolamine (20:3, Delta 8, 11, 14)",0,0,0,0,0,0,FALSE
+"EX_pelinl_hs[e]","1-Linoleoylglycerophosphoethanolamine (Delta 9,12)",0,0,0,0,0,0,FALSE
+"EX_peole_hs[e]","1-Oleoylglycerophosphoethanolamine (Delta 9)",0,0,0,0,0,0,FALSE
+"EX_pepalm_hs[e]","1-Palmitoylglycerophosphoethanolamine",0,0,0,0,0,0,FALSE
+"EX_peste_hs[e]","1-Stearoylglycerophosphoethanolamine",0,0,0,0,0,0,FALSE
+"EX_sphmyln180241_hs[e]","Sm (D18:0/24:1), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18114_hs[e]","Sm (D18:1/14:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18115_hs[e]","Sm (D18:1/15:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18116_hs[e]","Sm (D18:1/16:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln181161_hs[e]","Sm (D18:1/16:1), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18117_hs[e]","Sm (D18:1/17:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18118_hs[e]","Sm (D18:1/18:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln181181_hs[e]","Sm (D18:1/18:1), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18120_hs[e]","Sm (D18:1/20:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln181201_hs[e]","Sm (D18:1/20:1), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18121_hs[e]","Sm (D18:1/21:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18122_hs[e]","Sm (D18:1/22:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln181221_hs[e]","Sm (D18:1/22:1), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln18123_hs[e]","Sm (D18:1/23:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln1824_hs[e]","Sm (D18:0/24:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_sphmyln1825_hs[e]","Sm (D18:0/25:0), Sphingomyelin",0,0,0,0,0,0,FALSE
+"EX_wharachd[e]","10-HETE",0,0,0,0,0,0,FALSE
+"EX_xolest181_hs[e]","1-Vaccenoyl-Cholesterol, Cholesterol-Ester (18:1, Delta 11)",0,0,0,0,0,0,FALSE
+"EX_xolest182_hs[e]","1-Linoleoyl-Cholesterol, Cholesterol-Ester (18:2, Delta 9, 12)",0,0,0,0,0,0,FALSE
+"EX_xolest183_hs[e]","1-Gamma-Linolenoyl-Cholesterol, Cholesterol-Ester (18:3, Delta 6, 9, 12)",0,0,0,0,0,0,FALSE
+"EX_xolest204_hs[e]","Cholesteryl Arachidonate, Cholesterol-Ester (20:4, Delta 5,8,11,14)",0,0,0,0,0,0,FALSE
+"EX_xolest205_hs[e]","1-Timnodnoyl-Cholesterol, Cholesterol-Ester (20:5, Delta 5,8,11,14,17)",0,0,0,0,0,0,FALSE
+"EX_xolest226_hs[e]","Cholesteryl Docosahexanoate, Cholesterol-Ester (22:6, Delta 4,7,10,13,16,19)",0,0,0,0,0,0,FALSE
+"EX_CE2510[e]","cis-gondoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_ddca[e]","lauric acid",0.026036362,0,0.028127212,0,0.111434561215069,0,FALSE
+"EX_ttdcea[e]","(9E)-tetradecenoic acid",0.000763632,0.0001261,0.000827359,0.001317213,0.115490569979835,3.37454756783106,FALSE
+"EX_bgly[e]","hippurate",0,0,0,0,0,0,FALSE
+"EX_pcresol[e]","P-Cresol",0,0,0,0,0,0,FALSE
+"EX_progly[e]","L-Prolinylglycine",0,0,0,0,0,0,FALSE
+"EX_alaargcys[e]","Alanyl-Arginyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_alaarggly[e]","Alanyl-Arginyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_alaasnleu[e]","Alanyl-Asparaginyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_alaglylys[e]","Alanyl-Glycyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_alahisala[e]","Alanyl-Histidyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_alalysthr[e]","Alanyl-Lysine-Threonine",0,0,0,0,0,0,FALSE
+"EX_argalaala[e]","Arginyl-Alanyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_argalaphe[e]","Arginyl-Alanine-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_argalathr[e]","Arginyl-Alanyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_argarg[e]","Arginyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_argarglys[e]","Arginyl-Arginyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_argargmet[e]","Arginyl-Arginyl-Metheonine",0,0,0,0,0,0,FALSE
+"EX_argcysgly[e]","Arginyl-Cystinyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_argcysser[e]","Arginyl-Cystinyl-Serine",0,0,0,0,0,0,FALSE
+"EX_arggluglu[e]","Arginyl-Glutamyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_argglupro[e]","Arginyl-Glutamyl-Proline",0,0,0,0,0,0,FALSE
+"EX_argglygly[e]","Arginyl-Glycyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_arghisthr[e]","Arginyl-Histidyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_argleuphe[e]","Arginyl-Leucyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_arglysasp[e]","Arginyl-Lysyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_argphearg[e]","Arginyl-Phenylalanine-Arginine",0,0,0,0,0,0,FALSE
+"EX_argpromet[e]","Arginyl-Prolyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_argprothr[e]","Arginyl-Prolyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_argserser[e]","Arginyl-Seryl-Serine",0,0,0,0,0,0,FALSE
+"EX_argtyrval[e]","Argtyrval",0,0,0,0,0,0,FALSE
+"EX_argvalcys[e]","Arginyl-Valyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_argvaltrp[e]","Arginyl-Valyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_asnasnarg[e]","Asparaginyl-Asparaginyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_asncyscys[e]","Asparaginyl-Cysteinyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_asnmetpro[e]","Asparaginyl-Methionyl-Proline",0,0,0,0,0,0,FALSE
+"EX_asnpheasp[e]","Asparaginyl-Phenylalanyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_asnphecys[e]","Asparaginyl-Phenylalanyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_asntyrgly[e]","Asparaginyl-Tyrosyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_asntyrphe[e]","Asparaginyl-Tyrosyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_asntyrthr[e]","Asparaginyl-Tyrosyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_aspalaarg[e]","Asparaginyl-Alanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_aspasnglu[e]","Aspartyl-Asparaginyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_aspglu[e]","Aspartyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_aspglupro[e]","Aspartyl-Glutamyl-Proline",0,0,0,0,0,0,FALSE
+"EX_aspglutrp[e]","Aspartyl-Glutamyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_asphiscys[e]","Aspartyl-Histidyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_asphispro[e]","Aspartyl-Histidyl-Proline",0,0,0,0,0,0,FALSE
+"EX_asplysglu[e]","Aspartyl-Lysyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_asplyshis[e]","Aspartyl-Lysyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_aspmetasp[e]","Aspartyl-Methionyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_aspprolys[e]","Aspartyl-Prolyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_aspvalasn[e]","Aspartyl-Valyl-Asparagine",0,0,0,0,0,0,FALSE
+"EX_cysasnmet[e]","Cystyl-Asparaginyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_cysaspphe[e]","Cystyl-Aspartyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_cyscys[e]","Cystyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_cysglnmet[e]","Cystyl-Glutaminyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_cysgluhis[e]","Cystyl-Glutamyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_cysglutrp[e]","Cystyl-Glutamyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_cysleuthr[e]","Cystyl-Leucyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_cyssermet[e]","Cystyl-Seryl-Methionine",0,0,0,0,0,0,FALSE
+"EX_cystyrasn[e]","Cystyl-Tyrosyl-Asparagine",0,0,0,0,0,0,FALSE
+"EX_glnasngln[e]","Glutaminyl-Asparaginyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_glnhishis[e]","Glutaminyl-Histidyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_glnhislys[e]","Glutaminyl-Histidyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_glnlyslys[e]","Glutaminyl-Lysyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_glnlystrp[e]","Glutaminyl-Lysyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_glnproglu[e]","Glutaminyl-Prolyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_glntrpglu[e]","Glutaminyl-Tryptophanyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_glntyrleu[e]","Glutaminyl-Tyrosyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_gluargleu[e]","Glutaminyl-Arginyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_gluasnleu[e]","Glutaminyl-Asparaginyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_gluglu[e]","Glutamyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_gluilelys[e]","Glutamyl-Isoleucyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_gluleu[e]","Glutamyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_glumet[e]","Glutamyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_glumethis[e]","Glutamyl-Methioninyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_gluthr[e]","Glutamyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_gluthrlys[e]","Glutamyl-Threonyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_glutrpala[e]","Glutamyl-Tryptophanyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_glyhisasn[e]","Glycyl-Histidyl-Asparagine",0,0,0,0,0,0,FALSE
+"EX_glyhislys[e]","Glycyl-Histidyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_glylyscys[e]","Glycyl-Lysyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_glylysphe[e]","Glycyl-Lysyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_glytyrlys[e]","Glycyl-Tyrosyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_glyvalhis[e]","Glycyl-Valyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_hisargcys[e]","Histidyl-Arginyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_hisargser[e]","Histidyl-Arginyl-Serine",0,0,0,0,0,0,FALSE
+"EX_hisasp[e]","Histidyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_hiscyscys[e]","Histidyl-Cystyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_hisglnala[e]","Histidyl-Glutaminyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_hisglu[e]","Histidyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_hisglugln[e]","Histidyl-Glutamyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_hisglylys[e]","Histidyl-Lysyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_hishislys[e]","Histidyl-Histidyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_hislysala[e]","Histidyl-Lysyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_hislysglu[e]","Histidyl-Lysyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_hislysile[e]","Histidyl-Lysyl-Isoleucine",0,0,0,0,0,0,FALSE
+"EX_hislysthr[e]","Histidyl-Lysyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_hislysval[e]","Histidyl-Lysyl-Valine",0,0,0,0,0,0,FALSE
+"EX_hismet[e]","Histidyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_hismetgln[e]","Histidyl-Methionyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_hisphearg[e]","Histidyl-Phenylalanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_hisprolys[e]","Histidyl-Prolyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_histrphis[e]","Histidyl-Tryptophanyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_ileargile[e]","Isoleucyl-Arginyl-Isoleucine",0,0,0,0,0,0,FALSE
+"EX_ileasnhis[e]","Isoleucyl-Asparaginyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_ileasp[e]","Isolecyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_ileglnglu[e]","Isolecyl-Glutaminyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_ileglyarg[e]","Isolecyl-Glycyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_ileprolys[e]","Isolecyl-Prolyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_ileserarg[e]","Isolecyl-Seryl-Arginine",0,0,0,0,0,0,FALSE
+"EX_iletrptyr[e]","Isolecyl-Tryptophanyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_leualaarg[e]","Leucyl-Alanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_leuasnasp[e]","Leucyl-Asparaginyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_leuasplys[e]","Leucyl-Aspartyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_leuleutrp[e]","Leucyl-Leucyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_leupro[e]","Leucyl-Proline",0,0,0,0,0,0,FALSE
+"EX_leuproarg[e]","Leucyl-Prolyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_leusertrp[e]","Leucyl-Seryl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_leutrp[e]","Leucyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_leutrparg[e]","Leucyl-Tryptophanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_leutyrtyr[e]","Leucyl-Tyrosyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_leuval[e]","Leucyl-Valine",0,0,0,0,0,0,FALSE
+"EX_lysargleu[e]","Lysyl-Arginyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_lyscyshis[e]","Lysyl-Cysteinyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_lysglnphe[e]","Lysyl-Glutaminyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_lysgluglu[e]","Lysyl-Glutamyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_lyslyslys[e]","Lysyl-Lysyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_lyspheile[e]","Lysyl-Phenylalanyl-Isoleucine",0,0,0,0,0,0,FALSE
+"EX_lystrparg[e]","Lysyl-Tryptophanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_lystyrile[e]","Lysyl-Tyrosyl-Isoleucine",0,0,0,0,0,0,FALSE
+"EX_lysvalphe[e]","Lysyl-Valyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_lysvaltrp[e]","Lysyl-Valyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_metargleu[e]","Methionyl-Arginyl-Leucine",0.098848589,0.099288882,0.098194336,0,-0.00958046523913669,-16.5993590889229,TRUE
+"EX_metasntyr[e]","Methionyl-Asparaginyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_metglntyr[e]","Methionyl-Glutaminyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_metglyarg[e]","Methionyl-Glycyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_methislys[e]","Methionyl-Histidyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_metmetile[e]","Methionyl-Methionyl-Isoleucine",0,0,0,0,0,0,FALSE
+"EX_metphearg[e]","Methionyl-Phenylalanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_mettrpphe[e]","Methionyl-Tryptophanyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_pheasnmet[e]","Phenylalanyl-Asparaginyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_pheasp[e]","Phenylalanyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_pheglnphe[e]","Phenylalanyl-Glutaminyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_pheleu[e]","Phenylalanyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_pheleuasp[e]","Phenylalanyl-Leucyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_pheleuhis[e]","Phenylalanyl-Leucyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_phelysala[e]","Phenylalanyl-Lysyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_phelyspro[e]","Phenylalanyl-Lysyl-Proline",0,0,0,0,0,0,FALSE
+"EX_phephe[e]","Phenylalanyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_phepheasn[e]","Phenylalanyl-Phenylalaninyl-Asparagine",0,0,0,0,0,0,FALSE
+"EX_phephethr[e]","Phenylalanyl-Phenylalaninyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_pheproarg[e]","Phenylalanyl-Prolyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_phesertrp[e]","Phenylalanyl-Seryl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_phethrlys[e]","Phenylalanyl-Threonyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_phetrpleu[e]","Phenylalanyl-Tryptophanyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_phetyr[e]","Phenylalanyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_phetyrgln[e]","Phenylalanyl-Tyrosinyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_phetyrlys[e]","Phenylalanyl-Tyrosinyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_proargasp[e]","Prolyl-Arginyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_proargcys[e]","Prolyl-Arginyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_proasncys[e]","Prolyl-Asparaginyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_procys[e]","Prolyl-Cysteine",0,0,0,0,0,0,FALSE
+"EX_proglnpro[e]","Prolyl-Glutaminyl-Proline",0,0,0,0,0,0,FALSE
+"EX_proglulys[e]","Prolyl-Glutamatsyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_prohis[e]","Prolyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_prohistyr[e]","Prolyl-Histidyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_proleuarg[e]","Prolyl-Leucyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_prolyspro[e]","Prolyl-Lysyl-Proline",0,0,0,0,0,0,FALSE
+"EX_prophe[e]","Prolyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_proproarg[e]","Prolyl-Prolyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_propropro[e]","Prolyl-Prolyl-Proline",0,0,0,0,0,0,FALSE
+"EX_protrplys[e]","Prolyl-Tryptophanyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_protrpthr[e]","Prolyl-Tryptophanyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_provalgln[e]","Prolyl-Valyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_serargala[e]","Seryl-Arginyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_serargtrp[e]","Seryl-Arginyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_sercysarg[e]","Seryl-Cysteinyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_serglyglu[e]","Seryl-Glycyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_serlyshis[e]","Seryl-Lysyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_serphelys[e]","Seryl-Phenylalanyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_sertrphis[e]","Seryl-Tryptophanyl-Histidine",0,0.023918271,0,0,0,-14.5458857999922,TRUE
+"EX_thrargtyr[e]","Threonyl-Arginyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_thrasntyr[e]","Threonyl-Asparaginyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_thrglnglu[e]","Threonyl-Glutaminyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_thrglntyr[e]","Threonyl-Glutaminyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_thrhishis[e]","Threonyl-Histidinyl-Histidine",0,0,0,0,0,0,FALSE
+"EX_thrilearg[e]","Threonyl-Isoleucyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_thrmetarg[e]","Threonyl-Methionyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_thrphearg[e]","Threonyl-Phenylalanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_thrserarg[e]","Threonyl-Seryl-Arginine",0,0,0,0,0,0,FALSE
+"EX_thrthrarg[e]","Threonyl-Threonyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_thrtyrmet[e]","Threonyl-Tyrosyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_trpalapro[e]","Tryptophanyl-Alanyl-Proline",0,0,0,0,0,0,FALSE
+"EX_trpargala[e]","Tryptophanyl-Arginyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_trpaspasp[e]","Tryptophanyl-Aspartyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_trpglngln[e]","Tryptophanyl-Glutaminyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_trpglugly[e]","Tryptophanyl-Glutamyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_trpgluleu[e]","Tryptophanyl-Glutamyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_trpglupro[e]","Tryptophanyl-Glutamyl-Proline",0,0,0,0,0,0,FALSE
+"EX_trpglutyr[e]","Tryptophanyl-Glutamyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_trpglyleu[e]","Tryptophanyl-Glycyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_trpglyphe[e]","Tryptophanyl-Glycyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_trpglyval[e]","Tryptophanyl-Glycyl-Valine",0,0,0,0,0,0,FALSE
+"EX_trphismet[e]","Tryptophanyl-Histidyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_trpilelys[e]","Tryptophanyl-Isoleucyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_trpiletrp[e]","Tryptophanyl-Isoleucyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_trpleuval[e]","Tryptophanyl-Leucyl-Valine",0,0,0,0,0,0,FALSE
+"EX_trplys[e]","Tryptophanyl-Lysine",0,0,0,0,0,0,FALSE
+"EX_trpmetarg[e]","Tryptophanyl-Methionyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_trpmetval[e]","Tryptophanyl-Methionyl-Valine",0,0,0,0,0,0,FALSE
+"EX_trpphe[e]","Tryptophanyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_trpprogly[e]","Tryptophanyl-Prolyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_trpproleu[e]","Tryptophanyl-Prolyl-Leucine",0,0,0,0,0,0,FALSE
+"EX_trpproval[e]","Tryptophanyl-Prolyl-Valine",0,0,0,0,0,0,FALSE
+"EX_trpsertyr[e]","Tryptophanyl-Seryl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_trpthrglu[e]","Tryptophanyl-Threonyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_trpthrile[e]","Tryptophanyl-Threonyl-Isoleucine",0,0,0,0,0,0,FALSE
+"EX_trpthrtyr[e]","Tryptophanyl-Threonyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_trptyrgln[e]","Tryptophanyl-Tyrosyl-Glutamine",0,0,0,0,0,0,FALSE
+"EX_trptyrtyr[e]","Tryptophanyl-Tyrosyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_trpvalasp[e]","Tryptophanyl-Valyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_tyrala[e]","Tyrosyl-Alanine",0,0,0,0,0,0,FALSE
+"EX_tyralaphe[e]","Tyrosyl-Alaninyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_tyrargglu[e]","Tyrosyl-Arginyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_tyrargser[e]","Tyrosyl-Arginyl-Serine",0,0,0,0,0,0,FALSE
+"EX_tyrasparg[e]","Tyrosyl-Aspartyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_tyrcysgly[e]","Tyrosyl-Cysteinyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_tyrcysthr[e]","Tyrosyl-Cysteinyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_tyrglu[e]","Tyrosyl-Glutamate",0,0,0,0,0,0,FALSE
+"EX_tyrleuarg[e]","Tyrosyl-Leucyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_tyrphetyr[e]","Tyrosyl-Phenylalanyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_tyrthr[e]","Tyrosyl-Threonine",0,0,0,0,0,0,FALSE
+"EX_tyrtrpphe[e]","Tyrosyl-Tryptophanyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_tyrtyr[e]","Tyrosyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_tyrvalmet[e]","Tyrosyl-Valyl-Methionine",0,0,0,0,0,0,FALSE
+"EX_valarggly[e]","Valyl-Arginyl-Glycine",0,0,0,0,0,0,FALSE
+"EX_valhisasn[e]","Valyl-Histidyl-Asparagine",0,0,0,0,0,0,FALSE
+"EX_valleuphe[e]","Valyl-Leucyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_vallystyr[e]","Valyl-Lysyl-Tyrosine",0,0,0,0,0,0,FALSE
+"EX_valphearg[e]","Valyl-Phenylalanyl-Arginine",0,0,0,0,0,0,FALSE
+"EX_valprotrp[e]","Valyl-Prolyl-Tryptophan",0,0,0,0,0,0,FALSE
+"EX_valserarg[e]","Valyl-Seryl-Arginine",0,0,0,0,0,0,FALSE
+"EX_valtrpphe[e]","Valyl-Tryptophanyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_valtrpval[e]","Valyl-Tryptophanyl-Valine",0,0,0,0,0,0,FALSE
+"EX_valval[e]","Valyl-Valine",0,0,0,0,0,0,FALSE
+"EX_trpglyasp[e]","Tryptophanyl-Glycyl-Aspartate",0,0,0,0,0,0,FALSE
+"EX_sphmyln_hs[e]","SM pool",0,0,0,0,0,0,FALSE
+"EX_acgal[e]","N-acetylgalactosamine",0,0,0,0,0,0,FALSE
+"EX_acnam[e]","N-acetylneuraminate",0,0,0,0,0,0,FALSE
+"EX_dhcholestanate[e]","3alpha,7alpha-dihydroxy-5beta-cholestanate",0,0,0,0,0,0,FALSE
+"EX_xol7aone[e]","7alpha-hydroxycholest-4-en-3-one",0,0,0,0,0,0,FALSE
+"EX_xoldiolone[e]","7alpha,12alpha-dihydroxycholest-4-en-3-one",0,0,0,0,0,0,FALSE
+"EX_7klitchol[e]","7-Ketolithocholate",0,0,0,0,0,0,FALSE
+"EX_glyleu[e]","Glycylleucine",0,0,0,0,0,0,FALSE
+"EX_glyphe[e]","Glycyl-Phenylalanine",0,0,0,0,0,0,FALSE
+"EX_glypro[e]","Glycylproline",0,0,0,0,0,0,FALSE
+"EX_ppi[e]","PPi",0,0,0,0,0,0,FALSE
+"EX_nh4[e]","NH4+",0,0,0,0,0,0,FALSE
+"EX_ptrc[e]","putrescine",1.94292143,0.691480973,1.791456452,0,-0.117094524113039,-19.3993321151076,TRUE
+"EX_spmd[e]","spermidine",0,0,0,0,0,0,FALSE
+"EX_phpyr[e]","phenylpyruvate",0,0,0,0,0,0,FALSE
+"EX_tym[e]","tyramine",0,0,0,0,0,0,FALSE
+"EX_2hyoxplac[e]","2-hydroxyphenylacetate",0,0,0.086857684,0,16.4063824741665,0,TRUE
+"EX_andrstndn[e]","4-androstene-3,17-dione",0,0,0,0,0,0,FALSE
+"EX_eandrstrn[e]","16alpha-hydroxydehydroepiandrosterone",0,0,0,0,0,0,FALSE
+"EX_andrstandn[e]","5alpha-androstane-3,17-dione",0,0,0,0,0,0,FALSE
+"EX_CE2209[e]","5alpha-androstane-3alpha,17beta-diol",0,0,0,0,0,0,FALSE
+"EX_C05301[e]","2-hydroxyestradiol-17beta",0,0,0,0,0,0,FALSE
+"EX_C05299[e]","2-methoxyestrone",0,0,0,0,0,0,FALSE
+"EX_C05302[e]","2-methoxyestradiol-17beta",0,0,0,0,0,0,FALSE
+"EX_CE5072[e]","21-hydroxyallopregnanolone",0,0,0,0,0,0,FALSE
+"EX_11docrtsl[e]","11-deoxycortisol",0,0,0,0,0,0,FALSE
+"EX_11docrtstrn[e]","11-deoxycorticosterone",0,0,0,0,0,0,FALSE
+"EX_prgnlone[e]","pregnenolone",0,0,0,0,0,0,FALSE
+"EX_CE2211[e]","allopregnanolone",0,0,0,0,0,0,FALSE
+"EX_17ahprgstrn[e]","17alpha-hydroxyprogesterone",0,0,0,0,0,0,FALSE
+"EX_17ahprgnlone[e]","17alpha-hydroxypregnenolone",0,0,0,0,0,0,FALSE
+"EX_C03681[e]","5alpha-pregnane-3,20-dione",0,0,0,0,0,0,FALSE
+"EX_prgnlones[e]","pregnenolone sulfate",0,0,0,0,0,0,FALSE
+"EX_CE1352[e]","17alpha-hydroxypregnenolone sulfate",0,0,0,0,0,0,FALSE
+"EX_CE7090[e]","(18R)-HEPE",0,0,0,0,0,0,FALSE
+"EX_CE7085[e]","5(S)-HEPE",0,0,0,0,0,0,FALSE
+"EX_CE7096[e]","5,15-DiHETE",0,0,0,0,0,0,FALSE
+"EX_n8aspmd[e]","N8-acetylspermidine",0,0,0,0,0,0,FALSE
+"EX_trypta[e]","tryptamine",0,0,0.023422908,0,14.5156941719502,0,TRUE
+"EX_CE4890[e]","N-methylsalsolinol",0,0,0,0,0,0,FALSE
+"EX_mhista[e]","N-methylhistamine",0,0,0,0,0,0,FALSE
+"EX_13dampp[e]","1,3-diaminopropane",0,0,0,0,0,0,FALSE
+"EX_mma[e]","methylamine",0,0,0,0,0,0,FALSE
+"EX_sphings[e]","sphingosine",0,0,0,0,0,0,FALSE
+"EX_hdd2crn[e]","hexadecenoylcarnitine(9)",0,0,0,0,0,0,FALSE
+"EX_ppp9[e]","protoporphyrin",0,0,0,0,0,0,FALSE
+"EX_aact[e]","aminoacetone",0,0,0,0,0,0,FALSE
+"EX_CE2705[e]","quinonoid dihydrobiopterin",0,0,0,0,0,0,FALSE
+"EX_selmeth[e]","selenomethionine",0,0,0,0,0,0,FALSE
+"EX_1a25dhvitd3[e]","calcitriol",0,0,0,0,0,0,FALSE
+"EX_fdp[e]","fructose-1,6-bisphosphate",0,0,0,0,0,0,FALSE
+"EX_coke[e]","cocaine",0,0,0,0,0,0,FALSE
+"EX_dopa4glcur[e]","Dopamine-4-O-Glucuronide",0,0,0,0,0,0,FALSE
+"EX_dopa3glcur[e]","Dopamine-3-O-Glucuronide",0,0,0,0,0,0,FALSE
+"EX_CE5025[e]","5-S-glutathionyl-dopamine",0,0,0,0,0,0,FALSE
+"EX_gd3_hs[e]","GD3",0,0,0,0,0,0,FALSE
+"EX_gluside_hs[e]","glucosylceramide pool",0,0,0,0,0,0,FALSE
+"EX_gm3_hs[e]","GM3",0,0,0,0,0,0,FALSE
+"EX_gd2_hs[e]","GD2",0,0,0,0,0,0,FALSE
+"EX_gd1a_hs[e]","GD1a",0,0,0,0,0,0,FALSE
+"EX_12dhchol[e]","12-Dehydrocholic acid; 12-Oxodeoxycholic acid; 12oxo-3alpha,7alpha-Dihydroxy-5beta-cholan-24-oic acid",0,0,0,0,0,0,FALSE
+"EX_3dhcdchol[e]","3-Dehydrochenodeoxychollyc acid; 7oxo-3alpha-hydroxy-5beta-cholan-24-oic acid",0,0,0,0,0,0,FALSE
+"EX_3dhchol[e]","3-Dehydrocholic acid; 3oxo-7alpha,12alpha-Dihydroxy-5beta-cholan-24-oic acid",0,0,0,0,0,0,FALSE
+"EX_3dhdchol[e]","3-dehydro-Deoxycholate",0,0,0,0,0,0,FALSE
+"EX_3dhlchol[e]","3-dehydro-Lithocholate",0,0,0,0,0,0,FALSE
+"EX_7dhcdchol[e]","7-Dehydrochenodeoxycholic acid; 7oxo-3alpha-hydroxy-5beta-cholan-24-oic acid",0,0,0,0,0,0,FALSE
+"EX_7dhchol[e]","7-Dehydrocholic acid; 7-Oxodeoxycholic acid; 7oxo-3alpha,12alpha-Dihydroxy-5beta-cholan-24-oic acid",0,0,0,0,0,0,FALSE
+"EX_ca24g[e]","Cholic acid-24glucuronide, CA-24G",0,0,0,0,0,0,FALSE
+"EX_ca3s[e]","Cholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_cdca24g[e]","Chenodeoxycholic acid-24glucuronide, CDCA-24G",0,0,0,0,0,0,FALSE
+"EX_cdca3g[e]","Chenodeoxycholic acid-3glucuronide, CDCA-3G",0,0,0,0,0,0,FALSE
+"EX_coprost[e]","Coprostanol",0,0,0,0,0,0,FALSE
+"EX_dca24g[e]","Deoxycholic acid-24glucuronide, CDA-24G",0,0,0,0,0,0,FALSE
+"EX_dca3g[e]","Deoxycholic acid-3glucuronide, CDA-3G",0,0,0,0,0,0,FALSE
+"EX_dca3s[e]","Deoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_gca3s[e]","Glycocholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_gcdca3s[e]","Glycochenodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_gdca3s[e]","Glycodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_gudca3s[e]","Glycoursodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_hca24g[e]","Hyocholic acid-24glucuronide, HCA-24G",0,0,0,0,0,0,FALSE
+"EX_hca6g[e]","Hyocholic acid-6glucuronide, HCA-6G",0,0,0,0,0,0,FALSE
+"EX_hdca24g[e]","Hyodeoxycholic acid-24glucuronide, HDCA-24G",0,0,0,0,0,0,FALSE
+"EX_hdca6g[e]","Hyodeoxycholic acid-6glucuronide, HDCA-6G",0,0,0,0,0,0,FALSE
+"EX_hyochol[e]","Hyocholic acid; gamma-Muricholate",0,0,0,0,0,0,FALSE
+"EX_icdchol[e]","Isochenodeoxycholic acid; 3beta,7alpha-Dihydroxy-5beta-cholanic acid",0,0,0,0,0,0,FALSE
+"EX_isochol[e]","Isochenodeoxycholic acid; 3beta,7alpha,12alpha-Trihydroxy-5beta-cholanic acid",0,0,0,0,0,0,FALSE
+"EX_lca24g[e]","Lithocholic acid-24glucuronide, CDCA-24G",0,0,0,0,0,0,FALSE
+"EX_lca3g[e]","Lithocholic acid-3glucuronide, CDCA-3G",0,0,0,0,0,0,FALSE
+"EX_lca3s[e]","Lithocholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_tca3s[e]","Taurocholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_tcdca3s[e]","Taurochenodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_tdca3s[e]","Taurodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_thyochol[e]","Taurohyocholic acid; N-(3alpha,6alpha,7alpha-Trihydroxy-5beta-cholan-24-oyl)taurine",0,0,0,0,0,0,FALSE
+"EX_tudca3s[e]","Tauroursodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_uchol[e]","Ursocholic acid; 3alpha,7beta,12alpha-Trihydroxy-5beta-cholan-24-oic acid; 3alpha,7beta,12alpha-Trihydroxy-5beta-cholanic acid; 7beta-Hydroxyisocholic acid; 7-Epicholic acid",0,0,0,0,0,0,FALSE
+"EX_udca3s[e]","Ursodeoxycholic acid 3-sulfate",0,0,0,0,0,0,FALSE
+"EX_2hatvacid[e]","2-hydroxy-atorvastatin-acid / ortho-hydroxy-atorvastatin acid",0,0,0,0,0,0,FALSE
+"EX_2hatvacidgluc[e]","2-hydroxy-atorvastatin-acyl-glucuronide",0,0,0,0,0,0,FALSE
+"EX_2hatvlac[e]","2-hydroxy-atorvastatin-lactone / ortho-hydroxy-atorvastatin lactone",0,0,0,0,0,0,FALSE
+"EX_2hatvlacgluc[e]","2-hydroxy-atorvastatin-lactone-glucuronide",0,0,0,0,0,0,FALSE
+"EX_35dhpvs[e]","3'-alpha,5'beta-dihydroxy-pravastatin / 3'-alpha5'beta6'beta-trihydroxy pravastatin",0,0,0,0,0,0,FALSE
+"EX_3hpvs[e]","3'-S-hydroxy-pravastatin",0,0,0,0,0,0,FALSE
+"EX_3hpvstet[e]","3'-S-hydroxy-pravastatin-tetranor",0,0,0,0,0,0,FALSE
+"EX_3ispvs[e]","3-alpha-iso-pravastatin",0,0,0,0,0,0,FALSE
+"EX_4hatvacid[e]","4-hydroxy-atorvastatin-acid / para-hydroxy-atorvastatin acid",0,0,0,0,0,0,FALSE
+"EX_4hatvlac[e]","4-hydroxy-atorvastatin-lactone / para-hydroxy-atorvastatin lactone",0,0,0,0,0,0,FALSE
+"EX_56dhpvs[e]","3-keto-5,6,-dihydroxy-pravastatin",0,0,0,0,0,0,FALSE
+"EX_56eppvs[e]","5,6-epoxy-3-alpha-iso-pravastatin",0,0,0,0,0,0,FALSE
+"EX_6epvs[e]","6-epipravastatin",0,0,0,0,0,0,FALSE
+"EX_6melvacid[e]","6'-exomethylene-lovastatin-acid form",0,0,0,0,0,0,FALSE
+"EX_7hpvs[e]","7-hydroxy-3-alpha-iso-pravastatin",0,0,0,0,0,0,FALSE
+"EX_acmp[e]","acetaminophen/paracetamol",0,0,0,0,0,0,FALSE
+"EX_acmpglu[e]","Acetaminophen glucuronide",0,0,0,0,0,0,FALSE
+"EX_acmpglut[e]","acetaminophen-glutathione-conjugate",0,0,0,0,0,0,FALSE
+"EX_allop[e]","allopurinol",0,0,0,0,0,0,FALSE
+"EX_crvs[e]","cerivastatin",0,0,0,0,0,0,FALSE
+"EX_crvsm1[e]","cerivastatin-M1",0,0,0,0,0,0,FALSE
+"EX_crvsm23[e]","cerivastatin-M23",0,0,0,0,0,0,FALSE
+"EX_crvsm24[e]","cerivastatin-M24",0,0,0,0,0,0,FALSE
+"EX_csa[e]","cyclosporine",0,0,0,0,0,0,FALSE
+"EX_dspvs[e]","desacyl dehydro-pravastatin",0,0,0,0,0,0,FALSE
+"EX_fvs[e]","fluvastatin",0,0,0,0,0,0,FALSE
+"EX_glz[e]","Gliclazide",0,0,0,0,0,0,FALSE
+"EX_ibup_R[e]","ibuprofen-R",0,0,0,0,0,0,FALSE
+"EX_isolvstacid[e]","3'-hydroxy-iso-delta-4',5'-hydroxy acid form of lovastatin",0,0,0,0,0,0,FALSE
+"EX_lstn[e]","Losartan",0,0,0,0,0,0,FALSE
+"EX_lvst[e]","lovastatin lactone form",0,0,0,0,0,0,FALSE
+"EX_mdz[e]","Midazolam",0,0,0,0,0,0,FALSE
+"EX_meracmp[e]","acetaminophen-mercapturate-conjugate/N-acetyl-cysteine-acetaminophen",0,0,0,0,0,0,FALSE
+"EX_ndersv[e]","N-desmethyl-rosuvastatin",0,0,0,0,0,0,FALSE
+"EX_nfdac[e]","acid metabolite of nifedipine",0,0,0,0,0,0,FALSE
+"EX_oxyp[e]","oxypurinol",0,0,0,0,0,0,FALSE
+"EX_ptvst[e]","pitavastatin",0,0,0,0,0,0,FALSE
+"EX_ptvstm3[e]","pitavastatin-M3",0,0,0,0,0,0,FALSE
+"EX_pvs[e]","pravastatin",0,0,0,0,0,0,FALSE
+"EX_pvsgluc[e]","pravastatin glucuronide",0,0,0,0,0,0,FALSE
+"EX_rsv[e]","rosuvastatin",0,0,0,0,0,0,FALSE
+"EX_rsvlac[e]","rosuvastatin-5S-lactone",0,0,0,0,0,0,FALSE
+"EX_smv[e]","simvastatin lactone form",0,0,0,0,0,0,FALSE
+"EX_smvacid[e]","simvastatin dihydroxy acid form",0,0,0,0,0,0,FALSE
+"EX_sulpacmp[e]","sulphate-conjugate-acetaminophen",0,0,0,0,0,0,FALSE
+"EX_tacr[e]","Tacrolimus",0,0,0,0,0,0,FALSE
+"EX_tmd[e]","Torasemide",0,0,0,0,0,0,FALSE
+"EX_tripvs[e]","triol metabolite of pravastatin",0,0,0,0,0,0,FALSE
+"EX_M02956[e]","TAG-chylomicron pool",0,0,0,0,0,0,FALSE
+"EX_M00234[e]","1,2-diacylglycerol-chylomicron pool",0,0,0,0,0,0,FALSE
+"EX_M01807[e]","fatty acid-chylomicron pool",0,0,0,0,0,0,FALSE
+"EX_M00503[e]","1-acylglycerol-chylomicron pool",0,0,0,0,0,0,FALSE
+"EX_M00510[e]","1-acylglycerol-VLDL pool",0,0,0,0,0,0,FALSE
+"EX_M00003[e]","(10Z)-heptadecenoic acid",0.036757217,0.006128888,0.03971321,0.063226209,0.111588516588283,3.36661291731672,FALSE
+"EX_M00008[e]","(11Z,14Z)-eicosadienoic acid",0.012250262,0.002041377,0.013234759,0.021073079,0.111510559446694,3.36714848116312,FALSE
+"EX_M00010[e]","(11Z,14Z,17Z)-eicosatrienoic acid",0.012250262,0.002041377,0.013234759,0.021073079,0.111510559446694,3.36714848116312,FALSE
+"EX_M00017[e]","(13Z)-eicosenoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M00019[e]","(13Z)-octadecenoic acid",0.000765775,0.000127685,0.000827359,0.001317213,0.111452848471824,3.35666770068998,FALSE
+"EX_M00021[e]","(13Z,16Z)-docosadienoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M00115[e]","(7Z)-octadecenoic acid",0.000765775,0.000127685,0,0.001317213,-9.58265948979072,3.35666770068998,TRUE
+"EX_M00117[e]","(7Z)-tetradecenoic acid",0.000763632,0.0001261,0.000824381,0.001317213,0.110294649852387,3.37454756783106,FALSE
+"EX_M00260[e]","10,13,16,19-docosatetraenoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M00265[e]","10,13,16-docosatriynoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M00315[e]","12,15,18,21-tetracosatetraenoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M00341[e]","13,16,19-docosatrienoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M01197[e]","7-palmitoleic acid",0,0,0,0.001317213,0,10.3643677879487,TRUE
+"EX_M01207[e]","8,11-eicosadienoic acid",0.000761488,0.000124515,0.000824381,0.001312565,0.114345595684982,3.38755589940965,FALSE
+"EX_M01235[e]","9-eicosenoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M01238[e]","9-heptadecylenic acid",0.000763632,0.000127685,0.000827359,0.001314889,0.115490569979835,3.35412199506052,FALSE
+"EX_M01582[e]","cis-cetoleic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M02053[e]","henicosanoic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M02457[e]","mead acid",0.003828877,0.000638426,0.004133815,0.006586063,0.110524722317076,3.36478603589424,FALSE
+"EX_M02613[e]","nonadecylic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M02745[e]","physeteric acid",0.000765775,0.0001261,0.000824381,0.001317213,0.106256928344376,3.37454756783106,FALSE
+"EX_M03045[e]","tricosanoic acid",0.001529407,0.000253785,0.001651739,0.002632101,0.110943535068845,3.36941061189417,FALSE
+"EX_M03051[e]","tridecylic acid",0.000763632,0.0001261,0.000824381,0.001314889,0.110294649852387,3.3720018622016,FALSE
+"EX_M03153[e]","ximenic acid",0.000763632,0.0001261,0.000824381,0,0.110294649852387,-6.9898202201176,TRUE
+"EX_HC02080[e]","bile-PC pool",0,0,0,0,0,0,FALSE
+"EX_h2co3[e]","carbonate",4.6771675,4.6771675,4.734163113,4.734163113,0.0174743146127776,0.0174743146127776,FALSE
+"EX_M02446[e]","maltoheptaose",0,0,0,0,0,0,FALSE
+"EX_M02447[e]","maltohexaose",0,0,0,0,0,0,FALSE
+"EX_M02449[e]","maltopentaose",0,0,0,0,0,0,FALSE
+"EX_M02451[e]","maltotetraose",0,0,0,0,0,0,FALSE
+"EX_M02837[e]","retinyl palmitate",0,0,0,0,0,0,FALSE
+"EX_M02035[e]","guanidine",0,0,0,0,0,0,FALSE
+"EX_M02467[e]","metformin",0,0,0,0,0,0,FALSE
+"HMR_10024","biomass",0.013945642,0.010313917,0.019373785,0.015120243,0.474262501787197,0.551844524710395,FALSE
+"HMR_10025","20-hydroxy-arachidonate",0,0,0,0,0,0,FALSE
+"HMR_10027","LacCer pool",0,0,0,0,0,0,FALSE
+"HMR_10047","1,2-diacylglycerol-LD-PC pool",0,0,0,0,0,0,FALSE

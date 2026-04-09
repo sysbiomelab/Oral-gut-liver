@@ -1,0 +1,147 @@
+SampleID,Age,Gender,BMI,Group,MELD,Severity_group,color,reactotype
+GutSample1,69,M,27.41,LC,11,Low Severity,cyan,1
+GutSample2,67,M,36.65,LC,12,Low Severity,cyan,2
+GutSample3,67,F,26.82,LC,8,Mild Severity,skyblue,1
+GutSample4,61,M,22.53,LC,7,Mild Severity,skyblue,1
+GutSample5,57,M,33.02,LC,26,High Severity,purple,2
+GutSample6,55,M,27.94,LC,7,Mild Severity,skyblue,1
+GutSample7,56,F,23.18,LC,14,Low Severity,cyan,2
+GutSample8,47,M,22.13,LC,30,High Severity,purple,3
+GutSample9,63,M,24.62,LC,8,Mild Severity,skyblue,1
+GutSample10,58,M,32.64,LC,8,Mild Severity,skyblue,1
+GutSample11,54,M,28.97,LC,7,Mild Severity,skyblue,1
+GutSample12,50,M,20.76,LC,21,Moderate Severity,blue,2
+GutSample13,65,F,21.73,LC,7,Mild Severity,skyblue,1
+GutSample14,45,M,25.06,LC,30,High Severity,purple,3
+GutSample15,33,F,NA,H,NA,Healthy,grey,1
+GutSample16,29,F,NA,H,NA,Healthy,grey,1
+GutSample17,25,M,NA,H,NA,Healthy,grey,1
+GutSample18,52,M,23.09,LC,18,Moderate Severity,blue,3
+GutSample19,70,M,26.64,LC,8,Mild Severity,skyblue,1
+GutSample20,41,F,28.48,LC,26,High Severity,purple,2
+GutSample21,40,F,22.77,LC,28,High Severity,purple,2
+GutSample22,67,M,32.14,LC,29,High Severity,purple,1
+GutSample23,54,M,25.71,LC,22,Moderate Severity,blue,3
+GutSample24,67,M,24.29,LC,8,Mild Severity,skyblue,1
+GutSample25,60,M,29.32,LC,26,High Severity,purple,2
+GutSample26,45,M,29.4,LC,15,Moderate Severity,blue,2
+GutSample27,42,F,24.2,LC,9,Low Severity,cyan,1
+GutSample28,44,M,29.19,LC,25,High Severity,purple,2
+GutSample29,37,M,25.15,LC,27,High Severity,purple,2
+GutSample30,60,M,32.35,LC,28,High Severity,purple,3
+GutSample31,53,M,21.55,LC,8,Mild Severity,skyblue,1
+GutSample32,52,M,24.22,LC,11,Low Severity,cyan,1
+GutSample33,29,F,22.18,LC,20,Moderate Severity,blue,2
+GutSample34,58,M,22.53,LC,11,Low Severity,cyan,1
+GutSample35,41,F,28.65,LC,12,Low Severity,cyan,3
+GutSample36,71,F,24.22,LC,14,Low Severity,cyan,2
+GutSample37,41,F,36.7,LC,27,High Severity,purple,3
+GutSample38,50,F,19.45,LC,9,Low Severity,cyan,3
+GutSample39,31,F,24.96,LC,7,Mild Severity,skyblue,2
+GutSample40,27,F,NA,H,NA,Healthy,grey,1
+GutSample41,27,F,19.83,H,NA,Healthy,grey,1
+GutSample42,55,F,28.2,H,NA,Healthy,grey,1
+GutSample43,44,F,26.3,H,NA,Healthy,grey,1
+GutSample44,36,M,23.51,H,NA,Healthy,grey,2
+GutSample45,36,M,24.68,H,NA,Healthy,grey,1
+GutSample46,36,M,25.25,H,NA,Healthy,grey,1
+GutSample47,29,F,24.44,H,NA,Healthy,grey,1
+GutSample48,28,F,NA,H,NA,Healthy,grey,1
+GutSample49,27,M,NA,H,NA,Healthy,grey,1
+GutSample50,51,M,34.31,LC,24,Moderate Severity,blue,3
+GutSample51,52,M,24.67,LC,19,Moderate Severity,blue,2
+GutSample52,70,M,18.73,LC,17,Moderate Severity,blue,2
+GutSample53,63,M,28.09,LC,10,Low Severity,cyan,1
+GutSample54,47,M,26.67,LC,8,Mild Severity,skyblue,1
+GutSample55,73,M,22.98,LC,19,Moderate Severity,blue,2
+GutSample56,64,M,25.88,LC,17,Moderate Severity,blue,1
+GutSample57,56,M,31.97,LC,9,Low Severity,cyan,2
+GutSample58,61,M,24.69,LC,13,Low Severity,cyan,2
+GutSample59,44,F,25.03,LC,11,Low Severity,cyan,1
+GutSample60,68,M,30.76,LC,12,Low Severity,cyan,1
+GutSample61,62,F,23.39,LC,15,Moderate Severity,blue,2
+GutSample62,48,M,44.46,LC,39,High Severity,purple,3
+GutSample63,18,M,27.87,LC,16,Moderate Severity,blue,3
+GutSample64,60,F,26.45,LC,28,High Severity,purple,3
+GutSample65,66,F,18.59,LC,9,Low Severity,cyan,1
+GutSample66,59,M,33.22,LC,3,Mild Severity,skyblue,1
+GutSample67,62,M,32.69,LC,10,Low Severity,cyan,2
+GutSample68,44,M,23.1,LC,9,Low Severity,cyan,2
+GutSample69,56,M,24.57,LC,14,Low Severity,cyan,1
+GutSample70,70,M,36.57,LC,15,Moderate Severity,blue,2
+GutSample71,64,M,27.43,LC,13,Low Severity,cyan,1
+GutSample72,56,M,29.38,LC,13,Low Severity,cyan,2
+GutSample73,64,F,31.22,LC,14,Low Severity,cyan,1
+GutSample74,70,M,31.71,LC,9,Low Severity,cyan,1
+GutSample75,48,F,21.45,LC,4,Mild Severity,skyblue,2
+GutSample76,63,M,23.18,LC,20,Moderate Severity,blue,2
+GutSample77,61,M,33.24,LC,12,Low Severity,cyan,2
+GutSample78,39,F,32.66,LC,20,Moderate Severity,blue,3
+GutSample79,51,M,25.76,LC,16,Moderate Severity,blue,3
+GutSample80,53,F,22.48,LC,18,Moderate Severity,blue,3
+GutSample81,71,M,28.04,LC,12,Low Severity,cyan,2
+GutSample82,61,F,20.07,LC,12,Low Severity,cyan,3
+GutSample83,52,M,28.83,LC,6,Mild Severity,skyblue,2
+GutSample84,58,M,27.47,LC,17,Moderate Severity,blue,2
+GutSample85,47,M,20.94,LC,7,Mild Severity,skyblue,1
+GutSample86,46,M,31.44,LC,8,Low Severity,cyan,1
+GutSample87,60,F,30.49,LC,14,Low Severity,cyan,2
+GutSample88,53,M,24.78,LC,11,Low Severity,cyan,2
+GutSample89,53,M,51.66,LC,24,Moderate Severity,blue,1
+GutSample90,51,M,26.04,LC,6,Mild Severity,skyblue,1
+GutSample91,52,F,29.37,LC,13,Low Severity,cyan,2
+GutSample92,43,M,25.44,LC,19,Moderate Severity,blue,1
+GutSample93,62,M,31.53,LC,11,Low Severity,cyan,1
+GutSample94,58,M,29.65,LC,20,Moderate Severity,blue,3
+GutSample95,48,F,26.04,LC,10,Low Severity,cyan,2
+GutSample96,52,M,37.77,LC,8,Low Severity,cyan,1
+GutSample97,62,M,30.3,LC,6,Mild Severity,skyblue,1
+GutSample98,49,M,26.84,LC,9,Low Severity,cyan,2
+GutSample99,71,M,26.53,H,NA,Healthy,grey,1
+GutSample100,71,M,25.6,H,NA,Healthy,grey,1
+GutSample101,50,F,58.83,H,NA,Healthy,grey,1
+GutSample102,50,F,21.51,H,NA,Healthy,grey,1
+GutSample103,57,F,29.45,H,NA,Healthy,grey,1
+GutSample104,57,F,28.95,H,NA,Healthy,grey,1
+GutSample105,71,M,24.45,H,NA,Healthy,grey,1
+GutSample106,71,M,25.33,H,NA,Healthy,grey,1
+GutSample107,80,F,29.07,H,NA,Healthy,grey,1
+GutSample108,80,F,23.67,H,NA,Healthy,grey,1
+GutSample109,58,F,34.52,H,NA,Healthy,grey,1
+GutSample110,58,F,26.46,H,NA,Healthy,grey,1
+GutSample111,63,F,30.66,H,NA,Healthy,grey,1
+GutSample112,63,F,27.97,H,NA,Healthy,grey,1
+GutSample113,66,F,26.81,H,NA,Healthy,grey,1
+GutSample114,66,F,21.5,H,NA,Healthy,grey,1
+GutSample115,77,M,25.72,H,NA,Healthy,grey,1
+GutSample116,77,M,22.77,H,NA,Healthy,grey,1
+GutSample117,51,F,27.25,H,NA,Healthy,grey,1
+GutSample118,51,F,28.86,H,NA,Healthy,grey,1
+GutSample119,67,F,25.26,H,NA,Healthy,grey,1
+GutSample120,67,F,22.55,H,NA,Healthy,grey,1
+GutSample121,65,F,22.73,H,NA,Healthy,grey,1
+GutSample122,65,F,21.77,H,NA,Healthy,grey,1
+GutSample123,62,F,21.54,H,NA,Healthy,grey,1
+GutSample124,62,F,21.24,H,NA,Healthy,grey,1
+GutSample125,68,M,30.71,H,NA,Healthy,grey,1
+GutSample126,68,M,27.11,H,NA,Healthy,grey,1
+GutSample127,71,M,29.36,H,NA,Healthy,grey,1
+GutSample128,71,M,24.54,H,NA,Healthy,grey,1
+GutSample129,54,F,31.7,H,NA,Healthy,grey,1
+GutSample130,54,F,33.66,H,NA,Healthy,grey,1
+GutSample131,65,F,24,H,NA,Healthy,grey,1
+GutSample132,65,F,20.27,H,NA,Healthy,grey,1
+GutSample133,75,F,25.51,H,NA,Healthy,grey,1
+GutSample134,75,F,23.1,H,NA,Healthy,grey,1
+GutSample135,51,F,27.41,H,NA,Healthy,grey,1
+GutSample136,51,F,25.92,H,NA,Healthy,grey,1
+GutSample137,67,F,20.36,H,NA,Healthy,grey,1
+GutSample138,67,F,24.25,H,NA,Healthy,grey,1
+GutSample139,52,F,24.9,H,NA,Healthy,grey,1
+GutSample140,52,F,24.74,H,NA,Healthy,grey,2
+GutSample141,57,M,28.25,H,NA,Healthy,grey,1
+GutSample142,57,M,30.86,H,NA,Healthy,grey,1
+GutSample143,79,F,33.02,H,NA,Healthy,grey,2
+GutSample144,79,F,41.05,H,NA,Healthy,grey,2
+GutSample145,64,F,24.78,H,NA,Healthy,grey,1
+GutSample146,64,F,24.76,H,NA,Healthy,grey,1

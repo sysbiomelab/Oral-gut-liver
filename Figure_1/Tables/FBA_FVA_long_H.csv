@@ -1,0 +1,57 @@
+"ReactionIDs","Species","species","variable","value"
+"msp_0106_maxFlux","msp_0605","unclassified Oscillospiraceae CAG-129","FVA_maxFlux: Ex_NH3",1.9038283395504
+"msp_0106_maxFlux","msp_0605","unclassified Oscillospiraceae CAG-129","FBA: Ex_NH3",1.841707116
+"msp_0133_maxFlux","msp_0685","unclassified Clostridiales 2e","FVA_maxFlux: Ex_NH3",2.05662598163468
+"msp_0133_maxFlux","msp_0685","unclassified Clostridiales 2e","FBA: Ex_NH3",1.452868312
+"msp_0169_maxFlux","msp_0317","unclassified Oscillospirales 4 UBA5446","FVA_maxFlux: Ex_NH3",2.24659579584132
+"msp_0169_maxFlux","msp_0317","unclassified Oscillospirales 4 UBA5446","FBA: Ex_NH3",0
+"msp_0173_maxFlux","msp_0526","[Clostridiales] bacterium CIM:MAG 925","FVA_maxFlux: Ex_NH3",3.47373840452036
+"msp_0173_maxFlux","msp_0526","[Clostridiales] bacterium CIM:MAG 925","FBA: Ex_NH3",2.36753657
+"msp_0237_maxFlux","msp_0772","[Lachnoclostridium] pacaense","FVA_maxFlux: Ex_NH3",3.03809745144184
+"msp_0237_maxFlux","msp_0772","[Lachnoclostridium] pacaense","FBA: Ex_NH3",0
+"msp_0277_maxFlux","msp_0173","[Christensenellaceae] bacterium Phil1 & [Clostridium] sp. CAG:226","FVA_maxFlux: Ex_NH3",3.52640949710535
+"msp_0277_maxFlux","msp_0173","[Christensenellaceae] bacterium Phil1 & [Clostridium] sp. CAG:226","FBA: Ex_NH3",0
+"msp_0317_maxFlux","msp_0106","[Clostridiales] bacterium UBA7273 / Firmicutes bacterium CAG:240","FVA_maxFlux: Ex_NH3",0
+"msp_0317_maxFlux","msp_0106","[Clostridiales] bacterium UBA7273 / Firmicutes bacterium CAG:240","FBA: Ex_NH3",0
+"msp_0319_maxFlux","msp_0585","Methanobrevibacter smithii","FVA_maxFlux: Ex_NH3",2.62675246991621
+"msp_0319_maxFlux","msp_0585","Methanobrevibacter smithii","FBA: Ex_NH3",2.445408438
+"msp_0378_maxFlux","msp_1172","unclassified Christensenellales CAG-74","FVA_maxFlux: Ex_NH3",0
+"msp_0378_maxFlux","msp_1172","unclassified Christensenellales CAG-74","FBA: Ex_NH3",0
+"msp_0424_maxFlux","msp_0624","unclassified Oscillospirales 2","FVA_maxFlux: Ex_NH3",3.44362326756671
+"msp_0424_maxFlux","msp_0624","unclassified Oscillospirales 2","FBA: Ex_NH3",0
+"msp_0447_maxFlux","msp_0773","unclassified Anaerovoracaceae CAG-145","FVA_maxFlux: Ex_NH3",0
+"msp_0447_maxFlux","msp_0773","unclassified Anaerovoracaceae CAG-145","FBA: Ex_NH3",0
+"msp_0463_maxFlux","msp_1444","Ruminococcaceae bacterium D5","FVA_maxFlux: Ex_NH3",0
+"msp_0463_maxFlux","msp_1444","Ruminococcaceae bacterium D5","FBA: Ex_NH3",0
+"msp_0526_maxFlux","msp_0463","[Clostridium] sp. CAG:167","FVA_maxFlux: Ex_NH3",2.43752935717508
+"msp_0526_maxFlux","msp_0463","[Clostridium] sp. CAG:167","FBA: Ex_NH3",1.779812775
+"msp_0560_maxFlux","msp_0565","unclassified Ruthenibacterium","FVA_maxFlux: Ex_NH3",0
+"msp_0560_maxFlux","msp_0565","unclassified Ruthenibacterium","FBA: Ex_NH3",0
+"msp_0565_maxFlux","msp_0237","[Roseburia] sp. CAG:182","FVA_maxFlux: Ex_NH3",0
+"msp_0565_maxFlux","msp_0237","[Roseburia] sp. CAG:182","FBA: Ex_NH3",0
+"msp_0566_maxFlux","msp_0277","[Eubacterium] sp. CAG:251 / [Clostridium] sp. A254.MGS-251","FVA_maxFlux: Ex_NH3",0
+"msp_0566_maxFlux","msp_0277","[Eubacterium] sp. CAG:251 / [Clostridium] sp. A254.MGS-251","FBA: Ex_NH3",0
+"msp_0584_maxFlux","msp_0169","[Roseburia] sp. CAG:197","FVA_maxFlux: Ex_NH3",2.45119671704602
+"msp_0584_maxFlux","msp_0169","[Roseburia] sp. CAG:197","FBA: Ex_NH3",0.151071806
+"msp_0585_maxFlux","msp_0424","unclassified Christensenellales CAG-74","FVA_maxFlux: Ex_NH3",0
+"msp_0585_maxFlux","msp_0424","unclassified Christensenellales CAG-74","FBA: Ex_NH3",0
+"msp_0605_maxFlux","msp_0378","[Eubacterium] sp. CAG:156","FVA_maxFlux: Ex_NH3",0
+"msp_0605_maxFlux","msp_0378","[Eubacterium] sp. CAG:156","FBA: Ex_NH3",0
+"msp_0624_maxFlux","msp_0566","unclassified Oscillospirales 5","FVA_maxFlux: Ex_NH3",0
+"msp_0624_maxFlux","msp_0566","unclassified Oscillospirales 5","FBA: Ex_NH3",0
+"msp_0685_maxFlux","msp_0133","Coprococcus sp. 2789STDY5608819 / [Clostridium] sp. CAG:264","FVA_maxFlux: Ex_NH3",0
+"msp_0685_maxFlux","msp_0133","Coprococcus sp. 2789STDY5608819 / [Clostridium] sp. CAG:264","FBA: Ex_NH3",0
+"msp_0732_maxFlux","msp_0732","[Clostridiales] bacterium CIM:MAG 442","FVA_maxFlux: Ex_NH3",0
+"msp_0732_maxFlux","msp_0732","[Clostridiales] bacterium CIM:MAG 442","FBA: Ex_NH3",0
+"msp_0761_maxFlux","msp_0761","unclassified Oscillospirales 5 CAG-110","FVA_maxFlux: Ex_NH3",0
+"msp_0761_maxFlux","msp_0761","unclassified Oscillospirales 5 CAG-110","FBA: Ex_NH3",0
+"msp_0772_maxFlux","msp_0319","unclassified Oscillospirales 4 UBA1777","FVA_maxFlux: Ex_NH3",3.7071526998289
+"msp_0772_maxFlux","msp_0319","unclassified Oscillospirales 4 UBA1777","FBA: Ex_NH3",1.010136432
+"msp_0773_maxFlux","msp_0560","unclassified Christensenellales CAG-74","FVA_maxFlux: Ex_NH3",0
+"msp_0773_maxFlux","msp_0560","unclassified Christensenellales CAG-74","FBA: Ex_NH3",0
+"msp_0776_maxFlux","msp_0584","Eggerthella sp. CAG:298","FVA_maxFlux: Ex_NH3",0
+"msp_0776_maxFlux","msp_0584","Eggerthella sp. CAG:298","FBA: Ex_NH3",0
+"msp_1172_maxFlux","msp_0776","unclassified Anaerovoracaceae","FVA_maxFlux: Ex_NH3",0
+"msp_1172_maxFlux","msp_0776","unclassified Anaerovoracaceae","FBA: Ex_NH3",0
+"msp_1444_maxFlux","msp_0447","Firmicutes bacterium CAG:272","FVA_maxFlux: Ex_NH3",0.605583067682981
+"msp_1444_maxFlux","msp_0447","Firmicutes bacterium CAG:272","FBA: Ex_NH3",0

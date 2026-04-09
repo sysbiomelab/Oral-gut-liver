@@ -1,0 +1,110 @@
+Subject,Age,Gender,BMI,Group,MELD,Severity_group,reactotype,Paired_Distance,distance_group
+Paired_subject1,56,F,23.18,LC,14,Low Severity,2,0.279951438,low_distance
+Paired_subject2,47,M,22.13,LC,30,High Severity,3,0.098501368,low_distance
+Paired_subject3,63,M,24.62,LC,8,Mild Severity,1,0.562280068,low_distance
+Paired_subject4,58,M,32.64,LC,8,Mild Severity,1,0.362501595,low_distance
+Paired_subject5,45,M,25.06,LC,30,High Severity,3,0.346568493,low_distance
+Paired_subject6,33,F,NA,H,NA,Healthy,1,0.616510486,high_distance
+Paired_subject7,25,M,NA,H,NA,Healthy,1,0.580651793,high_distance
+Paired_subject8,70,M,26.64,LC,8,Mild Severity,1,0.471843047,low_distance
+Paired_subject9,67,M,24.29,LC,8,Mild Severity,1,0.356289146,low_distance
+Paired_subject10,53,M,21.55,LC,8,Mild Severity,1,0.551236438,low_distance
+Paired_subject11,52,M,24.22,LC,11,Low Severity,1,0.418111873,low_distance
+Paired_subject12,58,M,22.53,LC,11,Low Severity,1,0.640268254,high_distance
+Paired_subject13,71,F,24.22,LC,14,Low Severity,2,0.597665313,high_distance
+Paired_subject14,27,F,NA,H,NA,Healthy,1,0.520244922,low_distance
+Paired_subject15,27,F,19.83,H,NA,Healthy,1,0.662890458,high_distance
+Paired_subject16,55,F,28.2,H,NA,Healthy,1,0.714520043,high_distance
+Paired_subject17,36,M,24.68,H,NA,Healthy,1,0.520388481,low_distance
+Paired_subject18,36,M,25.25,H,NA,Healthy,1,0.488673997,low_distance
+Paired_subject19,28,F,NA,H,NA,Healthy,1,0.594487619,high_distance
+Paired_subject20,51,M,34.31,LC,24,Moderate Severity,3,0.444709415,low_distance
+Paired_subject21,52,M,24.67,LC,19,Moderate Severity,2,0.453795458,low_distance
+Paired_subject22,63,M,28.09,LC,10,Low Severity,1,0.421119298,low_distance
+Paired_subject23,47,M,26.67,LC,8,Mild Severity,1,0.413856362,low_distance
+Paired_subject24,73,M,22.98,LC,19,Moderate Severity,2,0.5245578,low_distance
+Paired_subject25,64,M,25.88,LC,17,Moderate Severity,1,0.630488626,high_distance
+Paired_subject26,68,M,30.76,LC,12,Low Severity,1,0.58889134,high_distance
+Paired_subject27,60,F,26.45,LC,28,High Severity,3,0.302613525,low_distance
+Paired_subject28,66,F,18.59,LC,9,Low Severity,1,0.61198562,high_distance
+Paired_subject29,59,M,33.22,LC,3,Mild Severity,1,0.660256877,high_distance
+Paired_subject30,62,M,32.69,LC,10,Low Severity,2,0.654812628,high_distance
+Paired_subject31,44,M,23.1,LC,9,Low Severity,2,0.527243024,low_distance
+Paired_subject32,56,M,24.57,LC,14,Low Severity,1,0.517209097,low_distance
+Paired_subject33,70,M,36.57,LC,15,Moderate Severity,2,0.580582164,high_distance
+Paired_subject34,64,M,27.43,LC,13,Low Severity,1,0.566028453,low_distance
+Paired_subject35,56,M,29.38,LC,13,Low Severity,2,0.709535504,high_distance
+Paired_subject36,64,F,31.22,LC,14,Low Severity,1,0.571679166,low_distance
+Paired_subject37,70,M,31.71,LC,9,Low Severity,1,0.451401871,low_distance
+Paired_subject38,48,F,21.45,LC,4,Mild Severity,2,0.425291363,low_distance
+Paired_subject39,63,M,23.18,LC,20,Moderate Severity,2,0.406703046,low_distance
+Paired_subject40,61,M,33.24,LC,12,Low Severity,2,0.515860093,low_distance
+Paired_subject41,39,F,32.66,LC,20,Moderate Severity,3,0.657620614,high_distance
+Paired_subject42,51,M,25.76,LC,16,Moderate Severity,3,0.405127003,low_distance
+Paired_subject43,53,F,22.48,LC,18,Moderate Severity,3,0.264806692,low_distance
+Paired_subject44,71,M,28.04,LC,12,Low Severity,2,0.595153924,high_distance
+Paired_subject45,61,F,20.07,LC,12,Low Severity,3,0.490819198,low_distance
+Paired_subject46,52,M,28.83,LC,6,Mild Severity,2,0.73369753,high_distance
+Paired_subject47,58,M,27.47,LC,17,Moderate Severity,2,0.302191742,low_distance
+Paired_subject48,47,M,20.94,LC,7,Mild Severity,1,0.506553065,low_distance
+Paired_subject49,46,M,31.44,LC,8,Low Severity,1,0.540298391,low_distance
+Paired_subject50,60,F,30.49,LC,14,Low Severity,2,0.58858188,high_distance
+Paired_subject51,53,M,24.78,LC,11,Low Severity,2,0.456924935,low_distance
+Paired_subject52,53,M,51.66,LC,24,Moderate Severity,1,0.49869064,low_distance
+Paired_subject53,51,M,26.04,LC,6,Mild Severity,1,0.467158297,low_distance
+Paired_subject54,52,F,29.37,LC,13,Low Severity,2,0.720753012,high_distance
+Paired_subject55,43,M,25.44,LC,19,Moderate Severity,1,0.374572094,low_distance
+Paired_subject56,62,M,31.53,LC,11,Low Severity,1,0.382143543,low_distance
+Paired_subject57,58,M,29.65,LC,20,Moderate Severity,3,0.631711639,high_distance
+Paired_subject58,48,F,26.04,LC,10,Low Severity,2,0.380416538,low_distance
+Paired_subject59,52,M,37.77,LC,8,Low Severity,1,0.434585127,low_distance
+Paired_subject60,62,M,30.3,LC,6,Mild Severity,1,0.623059009,high_distance
+Paired_subject61,49,M,26.84,LC,9,Low Severity,2,0.480304656,low_distance
+Paired_subject62,71,M,26.53,H,NA,Healthy,1,0.577037052,high_distance
+Paired_subject63,71,M,25.6,H,NA,Healthy,1,0.512144671,low_distance
+Paired_subject64,50,F,58.83,H,NA,Healthy,1,0.5087529,low_distance
+Paired_subject65,50,F,21.51,H,NA,Healthy,1,0.441800784,low_distance
+Paired_subject66,57,F,29.45,H,NA,Healthy,1,0.534589434,low_distance
+Paired_subject67,57,F,28.95,H,NA,Healthy,1,0.570185087,low_distance
+Paired_subject68,71,M,24.45,H,NA,Healthy,1,0.447008283,low_distance
+Paired_subject69,71,M,25.33,H,NA,Healthy,1,0.545147605,low_distance
+Paired_subject70,80,F,29.07,H,NA,Healthy,1,0.50386232,low_distance
+Paired_subject71,80,F,23.67,H,NA,Healthy,1,0.648610371,high_distance
+Paired_subject72,58,F,34.52,H,NA,Healthy,1,0.328762041,low_distance
+Paired_subject73,58,F,26.46,H,NA,Healthy,1,0.376670191,low_distance
+Paired_subject74,63,F,30.66,H,NA,Healthy,1,0.400063478,low_distance
+Paired_subject75,63,F,27.97,H,NA,Healthy,1,0.455466234,low_distance
+Paired_subject76,66,F,26.81,H,NA,Healthy,1,0.413092639,low_distance
+Paired_subject77,66,F,21.5,H,NA,Healthy,1,0.532827476,low_distance
+Paired_subject78,77,M,25.72,H,NA,Healthy,1,0.335556557,low_distance
+Paired_subject79,77,M,22.77,H,NA,Healthy,1,0.388709753,low_distance
+Paired_subject80,51,F,27.25,H,NA,Healthy,1,0.360197563,low_distance
+Paired_subject81,51,F,28.86,H,NA,Healthy,1,0.42699061,low_distance
+Paired_subject82,67,F,25.26,H,NA,Healthy,1,0.605447075,high_distance
+Paired_subject83,67,F,22.55,H,NA,Healthy,1,0.617951981,high_distance
+Paired_subject84,65,F,22.73,H,NA,Healthy,1,0.522316985,low_distance
+Paired_subject85,65,F,21.77,H,NA,Healthy,1,0.362525405,low_distance
+Paired_subject86,62,F,21.54,H,NA,Healthy,1,0.444988126,low_distance
+Paired_subject87,62,F,21.24,H,NA,Healthy,1,0.423184283,low_distance
+Paired_subject88,68,M,30.71,H,NA,Healthy,1,0.343331869,low_distance
+Paired_subject89,68,M,27.11,H,NA,Healthy,1,0.365840955,low_distance
+Paired_subject90,71,M,29.36,H,NA,Healthy,1,0.635869484,high_distance
+Paired_subject91,71,M,24.54,H,NA,Healthy,1,0.438683348,low_distance
+Paired_subject92,54,F,31.7,H,NA,Healthy,1,0.377562364,low_distance
+Paired_subject93,54,F,33.66,H,NA,Healthy,1,0.45152717,low_distance
+Paired_subject94,65,F,24,H,NA,Healthy,1,0.440306761,low_distance
+Paired_subject95,65,F,20.27,H,NA,Healthy,1,0.442585604,low_distance
+Paired_subject96,75,F,25.51,H,NA,Healthy,1,0.483946171,low_distance
+Paired_subject97,75,F,23.1,H,NA,Healthy,1,0.468579912,low_distance
+Paired_subject98,51,F,27.41,H,NA,Healthy,1,0.397607875,low_distance
+Paired_subject99,51,F,25.92,H,NA,Healthy,1,0.492623334,low_distance
+Paired_subject100,67,F,20.36,H,NA,Healthy,1,0.402590199,low_distance
+Paired_subject101,67,F,24.25,H,NA,Healthy,1,0.483345222,low_distance
+Paired_subject102,52,F,24.9,H,NA,Healthy,1,0.545092263,low_distance
+Paired_subject103,52,F,24.74,H,NA,Healthy,2,0.463570787,low_distance
+Paired_subject104,57,M,28.25,H,NA,Healthy,1,0.38084223,low_distance
+Paired_subject105,57,M,30.86,H,NA,Healthy,1,0.37252489,low_distance
+Paired_subject106,79,F,33.02,H,NA,Healthy,2,0.560323304,low_distance
+Paired_subject107,79,F,41.05,H,NA,Healthy,2,0.590117685,high_distance
+Paired_subject108,64,F,24.78,H,NA,Healthy,1,0.57046629,low_distance
+Paired_subject109,64,F,24.76,H,NA,Healthy,1,0.537236181,low_distance
