@@ -84,7 +84,7 @@ If you use this code, please cite:
 ## Contact
 
 **Yi Jin**
-King’s College London
+King’s College London  
 PhD student in Computational and Systems Biology
 
 ---
