@@ -105,7 +105,7 @@ https://www.microbiomeatlas.org
 
 If you use this repository in your work, please cite:
 
-> Jin Y, et al. *Integrative host–microbiome modelling uncovers the implication of oral–gut translocation in advanced cirrhosis*. iMeta Medicine. 2026; e70131. https://doi.org/10.1002/imt2.70131
+> Jin Y, et al. 2026 *Integrative host–microbiome modelling uncovers the implication of oral–gut translocation in advanced cirrhosis*. iMeta e70131. https://doi.org/10.1002/imt2.70131
 
 Online article:
 
